@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DiStorage'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DiStorage.'
+  s.summary          = 'DiStorage is a lightweight dependency injection library for swift.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,18 +18,23 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+DiStorage is a lightweight dependency injection library for swift.
+The main advantage is the small amount of code (something like 200 lines).
+Therefore, you can look at code and be sure that the program does not contain any back doors and so on.
+Also, the library demonstrates what dependency injection is and how similar libraries work.
+The latter is important for beginning developers.
+                        DESC
 
-  s.homepage         = 'https://github.com/8243302/DiStorage'
+  s.homepage         = 'https://github.com/AlexeyYuPopkov/DiStorage_swift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '8243302' => 'alexey.yu.popkov@gmail.com' }
-  s.source           = { :git => 'https://github.com/8243302/DiStorage.git', :tag => s.version.to_s }
+  s.author           = { 'AlexeyYuPopkov' => 'alexey.yu.popkov@gmail.com' }
+  s.source           = { :git => 'https://github.com/AlexeyYuPopkov/DiStorage_swift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
-
+  s.ios.deployment_target = '12.0'
+  s.swift_version = "5.0"
+  
   s.source_files = 'DiStorage/Classes/**/*'
   
   # s.resource_bundles = {

@@ -1,0 +1,23 @@
+PODS:
+  - DiStorage (0.1.0)
+  - MBProgressHUD (1.2.0)
+
+DEPENDENCIES:
+  - DiStorage (from `../`)
+  - MBProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  DiStorage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DiStorage: 238b6b402115f2aa787766893bfa73ed6c44f037
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+
+PODFILE CHECKSUM: d3b491b422a900cb3a642d0c334c839438749789
+
+COCOAPODS: 1.13.0

@@ -1,0 +1,6 @@
+framework module DiStorage {
+  umbrella header "DiStorage-umbrella.h"
+
+  export *
+  module * { export * }
+}

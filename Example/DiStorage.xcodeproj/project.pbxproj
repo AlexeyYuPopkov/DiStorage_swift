@@ -8,12 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6F50E9D1E658F3FCF0000797 /* Pods_DiStorage_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C045582AE3FDD1BD7603FB3 /* Pods_DiStorage_Example.framework */; };
+		C52284DE2B4C360F002A8831 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52284DD2B4C360F002A8831 /* RootRouter.swift */; };
+		C52284E52B4C37CB002A8831 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52284E42B4C37CB002A8831 /* LoginVC.swift */; };
+		C52284E72B4C3F30002A8831 /* OnRouteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52284E62B4C3F30002A8831 /* OnRouteProtocol.swift */; };
+		C52284EA2B4C4C60002A8831 /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52284E92B4C4C60002A8831 /* AuthRepository.swift */; };
+		C52284EF2B4C4DCC002A8831 /* AuthDiModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52284EE2B4C4DCC002A8831 /* AuthDiModule.swift */; };
+		C52284F22B4C4F19002A8831 /* AuthRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52284F12B4C4F19002A8831 /* AuthRepositoryImpl.swift */; };
+		C52284F52B4C570B002A8831 /* AuthStatusProviderUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52284F42B4C570B002A8831 /* AuthStatusProviderUsecase.swift */; };
+		C52284F72B4C571C002A8831 /* LoginUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52284F62B4C571C002A8831 /* LoginUsecase.swift */; };
+		C52284F92B4C5794002A8831 /* TokenRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52284F82B4C5794002A8831 /* TokenRepository.swift */; };
+		C52284FC2B4C57B7002A8831 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52284FB2B4C57B7002A8831 /* Token.swift */; };
+		C52284FE2B4C580B002A8831 /* TokenRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52284FD2B4C580B002A8831 /* TokenRepositoryImpl.swift */; };
+		C52285012B4C6758002A8831 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52285002B4C6758002A8831 /* HomeVC.swift */; };
+		C52285032B4C6DA1002A8831 /* LogoutUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52285022B4C6DA1002A8831 /* LogoutUsecase.swift */; };
+		C52285052B4C6E99002A8831 /* UnauthDiModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52285042B4C6E99002A8831 /* UnauthDiModule.swift */; };
+		C52285072B4C724D002A8831 /* SomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52285062B4C724D002A8831 /* SomeModel.swift */; };
+		C522850B2B4C72E1002A8831 /* DoSomethingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C522850A2B4C72E1002A8831 /* DoSomethingRepository.swift */; };
+		C522850D2B4C7316002A8831 /* DoSomethingRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C522850C2B4C7316002A8831 /* DoSomethingRepositoryImpl.swift */; };
+		C522850F2B4C7382002A8831 /* DoSomethingUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C522850E2B4C7382002A8831 /* DoSomethingUsecase.swift */; };
 		EEC766FF31DF2799B0F5073D /* Pods_DiStorage_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9697D426EBAD17B27BDB690F /* Pods_DiStorage_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,8 +49,6 @@
 		607FACD01AFB9204008FA782 /* DiStorage_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiStorage_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* DiStorage_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiStorage_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,9 +58,27 @@
 		6BE675B70973B92310A619B7 /* Pods-DiStorage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiStorage_Example.release.xcconfig"; path = "Target Support Files/Pods-DiStorage_Example/Pods-DiStorage_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9186EBA0088C3111AB1D8DE4 /* Pods-DiStorage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiStorage_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DiStorage_Tests/Pods-DiStorage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9697D426EBAD17B27BDB690F /* Pods_DiStorage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiStorage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7C5839E3F588F5C4C03F135 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		CF7B3700B7D3E436306E5BE3 /* DiStorage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DiStorage.podspec; path = ../DiStorage.podspec; sourceTree = "<group>"; };
-		FB4A2503043F9199BBE0D963 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A7C5839E3F588F5C4C03F135 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C52284DD2B4C360F002A8831 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		C52284E42B4C37CB002A8831 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		C52284E62B4C3F30002A8831 /* OnRouteProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnRouteProtocol.swift; sourceTree = "<group>"; };
+		C52284E92B4C4C60002A8831 /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
+		C52284EE2B4C4DCC002A8831 /* AuthDiModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthDiModule.swift; sourceTree = "<group>"; };
+		C52284F12B4C4F19002A8831 /* AuthRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepositoryImpl.swift; sourceTree = "<group>"; };
+		C52284F42B4C570B002A8831 /* AuthStatusProviderUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStatusProviderUsecase.swift; sourceTree = "<group>"; };
+		C52284F62B4C571C002A8831 /* LoginUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUsecase.swift; sourceTree = "<group>"; };
+		C52284F82B4C5794002A8831 /* TokenRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenRepository.swift; sourceTree = "<group>"; };
+		C52284FB2B4C57B7002A8831 /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		C52284FD2B4C580B002A8831 /* TokenRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenRepositoryImpl.swift; sourceTree = "<group>"; };
+		C52285002B4C6758002A8831 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		C52285022B4C6DA1002A8831 /* LogoutUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutUsecase.swift; sourceTree = "<group>"; };
+		C52285042B4C6E99002A8831 /* UnauthDiModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnauthDiModule.swift; sourceTree = "<group>"; };
+		C52285062B4C724D002A8831 /* SomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeModel.swift; sourceTree = "<group>"; };
+		C522850A2B4C72E1002A8831 /* DoSomethingRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoSomethingRepository.swift; sourceTree = "<group>"; };
+		C522850C2B4C7316002A8831 /* DoSomethingRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoSomethingRepositoryImpl.swift; sourceTree = "<group>"; };
+		C522850E2B4C7382002A8831 /* DoSomethingUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoSomethingUsecase.swift; sourceTree = "<group>"; };
+		CF7B3700B7D3E436306E5BE3 /* DiStorage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DiStorage.podspec; path = ../DiStorage.podspec; sourceTree = "<group>"; };
+		FB4A2503043F9199BBE0D963 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +134,10 @@
 		607FACD21AFB9204008FA782 /* Example for DiStorage */ = {
 			isa = PBXGroup;
 			children = (
+				C52284F02B4C4F0A002A8831 /* Data */,
+				C52284E82B4C4C3F002A8831 /* Domain */,
+				C52284E22B4C379F002A8831 /* Presentation */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -148,6 +181,93 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		C52284DF2B4C362D002A8831 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C52284DD2B4C360F002A8831 /* RootRouter.swift */,
+				C52284E62B4C3F30002A8831 /* OnRouteProtocol.swift */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		C52284E22B4C379F002A8831 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				C52284DF2B4C362D002A8831 /* Router */,
+				C52284EB2B4C4D7B002A8831 /* Di */,
+				C52285092B4C7289002A8831 /* HomeVC */,
+				C52284E32B4C37AE002A8831 /* LoginVC */,
+			);
+			name = Presentation;
+			sourceTree = "<group>";
+		};
+		C52284E32B4C37AE002A8831 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				C52284E42B4C37CB002A8831 /* LoginVC.swift */,
+			);
+			name = LoginVC;
+			sourceTree = "<group>";
+		};
+		C52284E82B4C4C3F002A8831 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				C52284FA2B4C57AB002A8831 /* Model */,
+				C52284F32B4C56ED002A8831 /* Usecases */,
+				C52284E92B4C4C60002A8831 /* AuthRepository.swift */,
+				C52284F82B4C5794002A8831 /* TokenRepository.swift */,
+				C522850A2B4C72E1002A8831 /* DoSomethingRepository.swift */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		C52284EB2B4C4D7B002A8831 /* Di */ = {
+			isa = PBXGroup;
+			children = (
+				C52285042B4C6E99002A8831 /* UnauthDiModule.swift */,
+				C52284EE2B4C4DCC002A8831 /* AuthDiModule.swift */,
+			);
+			name = Di;
+			sourceTree = "<group>";
+		};
+		C52284F02B4C4F0A002A8831 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C52284F12B4C4F19002A8831 /* AuthRepositoryImpl.swift */,
+				C52284FD2B4C580B002A8831 /* TokenRepositoryImpl.swift */,
+				C522850C2B4C7316002A8831 /* DoSomethingRepositoryImpl.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		C52284F32B4C56ED002A8831 /* Usecases */ = {
+			isa = PBXGroup;
+			children = (
+				C52284F42B4C570B002A8831 /* AuthStatusProviderUsecase.swift */,
+				C52285022B4C6DA1002A8831 /* LogoutUsecase.swift */,
+				C52284F62B4C571C002A8831 /* LoginUsecase.swift */,
+				C522850E2B4C7382002A8831 /* DoSomethingUsecase.swift */,
+			);
+			name = Usecases;
+			sourceTree = "<group>";
+		};
+		C52284FA2B4C57AB002A8831 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C52284FB2B4C57B7002A8831 /* Token.swift */,
+				C52285062B4C724D002A8831 /* SomeModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C52285092B4C7289002A8831 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				C52285002B4C6758002A8831 /* HomeVC.swift */,
+			);
+			name = HomeVC;
+			sourceTree = "<group>";
+		};
 		D986BF0067D759F1B561704D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,7 +276,6 @@
 				9186EBA0088C3111AB1D8DE4 /* Pods-DiStorage_Tests.debug.xcconfig */,
 				34C6752605040768C8528871 /* Pods-DiStorage_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +346,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -246,7 +366,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -292,10 +411,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DiStorage_Example/Pods-DiStorage_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DiStorage/DiStorage.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DiStorage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -331,8 +452,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				C52284FE2B4C580B002A8831 /* TokenRepositoryImpl.swift in Sources */,
+				C52285012B4C6758002A8831 /* HomeVC.swift in Sources */,
+				C52284F52B4C570B002A8831 /* AuthStatusProviderUsecase.swift in Sources */,
+				C52284F92B4C5794002A8831 /* TokenRepository.swift in Sources */,
+				C52284DE2B4C360F002A8831 /* RootRouter.swift in Sources */,
+				C52284FC2B4C57B7002A8831 /* Token.swift in Sources */,
+				C52285032B4C6DA1002A8831 /* LogoutUsecase.swift in Sources */,
+				C52285052B4C6E99002A8831 /* UnauthDiModule.swift in Sources */,
+				C52284E72B4C3F30002A8831 /* OnRouteProtocol.swift in Sources */,
+				C522850F2B4C7382002A8831 /* DoSomethingUsecase.swift in Sources */,
+				C52284EA2B4C4C60002A8831 /* AuthRepository.swift in Sources */,
+				C52284E52B4C37CB002A8831 /* LoginVC.swift in Sources */,
+				C522850D2B4C7316002A8831 /* DoSomethingRepositoryImpl.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				C52284F72B4C571C002A8831 /* LoginUsecase.swift in Sources */,
+				C52284EF2B4C4DCC002A8831 /* AuthDiModule.swift in Sources */,
+				C52284F22B4C4F19002A8831 /* AuthRepositoryImpl.swift in Sources */,
+				C522850B2B4C72E1002A8831 /* DoSomethingRepository.swift in Sources */,
+				C52285072B4C724D002A8831 /* SomeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,14 +493,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -479,6 +609,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DiStorage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +625,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DiStorage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -516,6 +648,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -534,6 +667,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
