@@ -6,11 +6,14 @@
 [![Platform](https://img.shields.io/cocoapods/p/DiStorage.svg?style=flat)](https://cocoapods.org/pods/DiStorage)
 
 
-DiStorage is a lightweight dependency injection library for swift.
+**DiStorage** is a lightweight dependency injection library for `swift`.
 The main advantage is the small amount of code (something like 200 lines).
 Therefore, you can look at code and be sure that the program does not contain any back doors and so on.
 Also, the library demonstrates what dependency injection is and how similar libraries work.
 The latter is important for beginning developers.
+
+## Limitation
+Do not working with `struct` yet
 
 ## Usage
 
