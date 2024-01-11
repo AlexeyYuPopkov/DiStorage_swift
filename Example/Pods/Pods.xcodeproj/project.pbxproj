@@ -8,98 +8,95 @@
 
 /* Begin PBXBuildFile section */
 		0013DA14B23A61B912D5DDDC82EE8A26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
-		0097064E7F7D3F413161738CC5C25EEC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */; };
+		0097064E7F7D3F413161738CC5C25EEC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7196227D8E79457EB278E10F648413 /* MBProgressHUD.m */; };
 		0AA33EBB857A5205F87C09CCB99EAC74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
 		3E4161B4BBFBEF29631D7B4408A9F7EE /* Pods-DiStorage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA49DE653C6C0BED5C448A5BC40E93D /* Pods-DiStorage_Tests-dummy.m */; };
 		47CA8CB28603245892DF90DC066FE60F /* Pods-DiStorage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B53EA5611578CA20D4EA6DFA81E9F3 /* Pods-DiStorage_Example-dummy.m */; };
-		511F2A246B78050F84A45FCCCB6C876F /* DiStorage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B0670D1E97CCA8208C9DD39B522601 /* DiStorage-dummy.m */; };
-		58C91B4AB36E6B16421106CA634C58EF /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */; };
-		5BAC1EF86D0E57E44E404B2796993561 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67E941CADB3CDDEEDF8CE4EE4A4A05BB /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		511F2A246B78050F84A45FCCCB6C876F /* DiStorage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 061766D8A4B89978E1DE4E0A5B1A21E5 /* DiStorage-dummy.m */; };
+		58C91B4AB36E6B16421106CA634C58EF /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0E1EF3F93BE568D52F45D6CDDB7F0C /* MBProgressHUD-dummy.m */; };
+		5BAC1EF86D0E57E44E404B2796993561 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0168401B515465C5A27434FA56E2980C /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67E941CADB3CDDEEDF8CE4EE4A4A05BB /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 946840F7E4200805DB0C9B82574376F7 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C5A880F412F221F64CF5E5D30AE5223 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
 		6ECC4099F2F8D127823F9D49C665B2F8 /* Pods-DiStorage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B37F3E98754FD0D3443F4FE51C56D787 /* Pods-DiStorage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		952CEB15DC572C23B4092CC09A3B0C9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
 		AFAC1D4EBD53A048346210536741DF13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABB98090B02C131F86931CB9BE54B7A /* CoreGraphics.framework */; };
 		B52177FF72FDAC3EDB7195DE98F5501E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AB40693B18F443F75126966ED13E47 /* QuartzCore.framework */; };
-		D6BAA4D5F8713FD776BF4E135803061B /* DiModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE4F6E7EF8275CF25B5229793656E95 /* DiModule.swift */; };
-		DBDB9A071932D6665A51B61095EC8E38 /* DiStorageLifeTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA79B15530B8FAF4DC92ABEFA6991FE /* DiStorageLifeTime.swift */; };
+		D6BAA4D5F8713FD776BF4E135803061B /* DiModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434CAB7053BDA15C88D498D413EFE54 /* DiModule.swift */; };
+		DBDB9A071932D6665A51B61095EC8E38 /* DiStorageLifeTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCE1619F8C3BEE25DA1410DA365EE5A /* DiStorageLifeTime.swift */; };
 		DD4FF80508DAC3F3E07C543155C63A96 /* Pods-DiStorage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E98389247BFFB8220EB489F86F92F71 /* Pods-DiStorage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F64E72B85710BC5CCD6271D99D89ED11 /* DiStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D29B922117DEF21A0C4F92F7B30478 /* DiStorage.swift */; };
-		FC3AF31EB26E3A9BA187BC772C0D2974 /* DiStorage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E9DB30A236A3F8DB655EE26734F7CB4 /* DiStorage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF7CED57001EFA8CDEA02E13397B161C /* DiInstanceBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B937984FD5F13817A31813D6EB3D4FBC /* DiInstanceBox.swift */; };
+		F64E72B85710BC5CCD6271D99D89ED11 /* DiStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72007368C29C77931B0358CACA32D602 /* DiStorage.swift */; };
+		FC3AF31EB26E3A9BA187BC772C0D2974 /* DiStorage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D688F44BDDEEBBA5A7A1198A695575 /* DiStorage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF7CED57001EFA8CDEA02E13397B161C /* DiInstanceBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4B5E051B60E19972E8214C87968363 /* DiInstanceBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		880931BAEB8935C9D9DACAB3C1813ABC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 86CAF341C38DAED81A05B58C350DCB9B;
-			remoteInfo = DiStorage;
-		};
-		9A865DEDA579DF040DFEAF54E192504C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
-			remoteInfo = MBProgressHUD;
-		};
-		D50D87DCF0BEF134B76D4499157B45BC /* PBXContainerItemProxy */ = {
+		18693A8B1C58783F45340B98EC9989CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 36731584EB1D852204F546A9C2309AB4;
 			remoteInfo = "Pods-DiStorage_Example";
 		};
+		224E1E0C0A3497E010F8DE41B3CAEA2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		945853D5D4EAC14523CA9CEDFE3B5753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86CAF341C38DAED81A05B58C350DCB9B;
+			remoteInfo = DiStorage;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05C7D78A35A85CF9D63E0B10A35B0304 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0168401B515465C5A27434FA56E2980C /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		061766D8A4B89978E1DE4E0A5B1A21E5 /* DiStorage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DiStorage-dummy.m"; sourceTree = "<group>"; };
 		1A2D60FFB11775AACC1027CB0F1D881C /* Pods-DiStorage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DiStorage_Example.modulemap"; sourceTree = "<group>"; };
 		2119099A2FDF8BB46BB0DB92643B3D31 /* Pods-DiStorage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiStorage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2BEC2C5013ECDC4904B42212CFAB3906 /* DiStorage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DiStorage-Info.plist"; sourceTree = "<group>"; };
 		3E98389247BFFB8220EB489F86F92F71 /* Pods-DiStorage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DiStorage_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4BCF3E99E31865E8610A8975E981FE09 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		4D5A7D86F8C9F6BD71CEA68719C95A44 /* Pods-DiStorage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DiStorage_Tests.modulemap"; sourceTree = "<group>"; };
-		4E4E4D21A54B058FF670FDD732951FC2 /* DiStorage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DiStorage.release.xcconfig; sourceTree = "<group>"; };
-		4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		51AB40693B18F443F75126966ED13E47 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		53025FD44EEDEB9CEAE854B0AE31CB82 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
-		5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
-		5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		5CCE1619F8C3BEE25DA1410DA365EE5A /* DiStorageLifeTime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiStorageLifeTime.swift; path = DiStorage/Classes/DiStorageLifeTime.swift; sourceTree = "<group>"; };
+		5E84923FC68B7CCE0DF3B4AF4041EFF8 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		5FAD34FE05975615B6271F7476961FE1 /* Pods-DiStorage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DiStorage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		6AA8F456605D31FC0D06C69F9BDDDA9E /* DiStorage */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DiStorage; path = DiStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD8A8BB577C11101BCD12266EF1A0F7 /* Pods-DiStorage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiStorage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
-		71586C258C9A4BA21A453C698866EBC7 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		7B404B53100A62122CFB96E21FC35E6D /* DiStorage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DiStorage-prefix.pch"; sourceTree = "<group>"; };
+		72007368C29C77931B0358CACA32D602 /* DiStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiStorage.swift; path = DiStorage/Classes/DiStorage.swift; sourceTree = "<group>"; };
+		73282A2BF9481B2C18253E089C6F2CCD /* DiStorage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DiStorage-prefix.pch"; sourceTree = "<group>"; };
 		7E44C254CFD5A0947C3B0D9936AC6DE7 /* Pods-DiStorage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiStorage_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		81D29B922117DEF21A0C4F92F7B30478 /* DiStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiStorage.swift; path = DiStorage/Classes/DiStorage.swift; sourceTree = "<group>"; };
-		83B0670D1E97CCA8208C9DD39B522601 /* DiStorage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DiStorage-dummy.m"; sourceTree = "<group>"; };
+		87056E460E7D27B238A11B680E33539B /* DiStorage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DiStorage.modulemap; sourceTree = "<group>"; };
 		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D51CD72EAAB2D0342F0CB5A37C84BEE /* Pods-DiStorage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DiStorage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8DB38EA63BBD6782F43DD4C6AE184AB1 /* DiStorage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DiStorage.debug.xcconfig; sourceTree = "<group>"; };
 		920A7C225DEDF43943216C6C395468B6 /* Pods-DiStorage_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiStorage_Example-Info.plist"; sourceTree = "<group>"; };
+		946840F7E4200805DB0C9B82574376F7 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		9B7196227D8E79457EB278E10F648413 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		9B899B737ACDB85AC82FA02E8C24EA7E /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		9D1DB93C986AEA5A00B0051B68BCC3EF /* Pods-DiStorage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiStorage_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E9DB30A236A3F8DB655EE26734F7CB4 /* DiStorage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DiStorage-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A162430DAC5DBFC3E2F22597520AB6F2 /* Pods-DiStorage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiStorage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A434CAB7053BDA15C88D498D413EFE54 /* DiModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiModule.swift; path = DiStorage/Classes/DiModule.swift; sourceTree = "<group>"; };
 		A7B53EA5611578CA20D4EA6DFA81E9F3 /* Pods-DiStorage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DiStorage_Example-dummy.m"; sourceTree = "<group>"; };
 		B37F3E98754FD0D3443F4FE51C56D787 /* Pods-DiStorage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DiStorage_Example-umbrella.h"; sourceTree = "<group>"; };
-		B8FE5709B753E2DDC96366ED6E48CCF7 /* DiStorage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DiStorage.modulemap; sourceTree = "<group>"; };
-		B937984FD5F13817A31813D6EB3D4FBC /* DiInstanceBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiInstanceBox.swift; path = DiStorage/Classes/DiInstanceBox.swift; sourceTree = "<group>"; };
+		C5DF7E6AF982DB7AC5EB1D1DCEE7C098 /* DiStorage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DiStorage.release.xcconfig; sourceTree = "<group>"; };
 		CABB98090B02C131F86931CB9BE54B7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D110919F785356BC38F499182DFE9483 /* DiStorage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DiStorage.debug.xcconfig; sourceTree = "<group>"; };
-		D9610CA7FD7447D715612D209D53654F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		DBA79B15530B8FAF4DC92ABEFA6991FE /* DiStorageLifeTime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiStorageLifeTime.swift; path = DiStorage/Classes/DiStorageLifeTime.swift; sourceTree = "<group>"; };
-		EBE4F6E7EF8275CF25B5229793656E95 /* DiModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiModule.swift; path = DiStorage/Classes/DiModule.swift; sourceTree = "<group>"; };
-		ECDE7A8BBDFC7E8883581FE9FCAC16C2 /* DiStorage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DiStorage.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		CD96A438DE8B0FB27E5D09D0A6FAFB25 /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		D5BB8CA6D585F421AC930182C76DCE2B /* DiStorage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DiStorage-Info.plist"; sourceTree = "<group>"; };
+		DE0E1EF3F93BE568D52F45D6CDDB7F0C /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		E28B2D08FE128C6AD54C58E337172D07 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		EB4B5E051B60E19972E8214C87968363 /* DiInstanceBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiInstanceBox.swift; path = DiStorage/Classes/DiInstanceBox.swift; sourceTree = "<group>"; };
 		ED2521790EDC5C15460432ED429E81D4 /* Pods-DiStorage_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DiStorage_Example"; path = Pods_DiStorage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF298943CB1D083AD661BD9C3AB81D3 /* Pods-DiStorage_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DiStorage_Tests"; path = Pods_DiStorage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1A0E508679ED342B4AEDF1866C001EB /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		F1D688F44BDDEEBBA5A7A1198A695575 /* DiStorage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DiStorage-umbrella.h"; sourceTree = "<group>"; };
 		F68997DBC10BAD0134B2D89A154590A1 /* Pods-DiStorage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DiStorage_Example-frameworks.sh"; sourceTree = "<group>"; };
 		FA94B0E68F365BCDFAA36528BD636EDD /* Pods-DiStorage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiStorage_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		FCA49DE653C6C0BED5C448A5BC40E93D /* Pods-DiStorage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DiStorage_Tests-dummy.m"; sourceTree = "<group>"; };
 		FEDDA4E8B6ADEC392532A9FD697FDC5E /* Pods-DiStorage_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiStorage_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,10 +147,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3F242479102E24C5847AB040CB8095A8 /* Pods */ = {
+		040AAC6E3D1053EF22FB1694C0F5399F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7DA15A24060A7C02AA2887C73FB2018D /* MBProgressHUD */,
+				87056E460E7D27B238A11B680E33539B /* DiStorage.modulemap */,
+				061766D8A4B89978E1DE4E0A5B1A21E5 /* DiStorage-dummy.m */,
+				D5BB8CA6D585F421AC930182C76DCE2B /* DiStorage-Info.plist */,
+				73282A2BF9481B2C18253E089C6F2CCD /* DiStorage-prefix.pch */,
+				F1D688F44BDDEEBBA5A7A1198A695575 /* DiStorage-umbrella.h */,
+				8DB38EA63BBD6782F43DD4C6AE184AB1 /* DiStorage.debug.xcconfig */,
+				C5DF7E6AF982DB7AC5EB1D1DCEE7C098 /* DiStorage.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DiStorage";
+			sourceTree = "<group>";
+		};
+		3A10CEBDA702025791A9403E1FFB497A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E28B2D08FE128C6AD54C58E337172D07 /* MBProgressHUD.modulemap */,
+				DE0E1EF3F93BE568D52F45D6CDDB7F0C /* MBProgressHUD-dummy.m */,
+				5E84923FC68B7CCE0DF3B4AF4041EFF8 /* MBProgressHUD-Info.plist */,
+				4BCF3E99E31865E8610A8975E981FE09 /* MBProgressHUD-prefix.pch */,
+				0168401B515465C5A27434FA56E2980C /* MBProgressHUD-umbrella.h */,
+				9B899B737ACDB85AC82FA02E8C24EA7E /* MBProgressHUD.debug.xcconfig */,
+				CD96A438DE8B0FB27E5D09D0A6FAFB25 /* MBProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		450112FD739C976628E45F6DA5B46004 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D0265E421A3132B18F60A5A6EB497C8 /* DiStorage */,
+				85E3AC6E86A27B5DA6C9ED785C9C9440 /* MBProgressHUD */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -177,24 +205,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5C0A77DAB1BD30BAE86C1EED9859296E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E774490B63227193ACB2D1E17A1A18A4 /* DiStorage */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		7DA15A24060A7C02AA2887C73FB2018D /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */,
-				67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */,
-				C86A493F744575B77BC85AB9B143DAC2 /* Support Files */,
-			);
-			path = MBProgressHUD;
-			sourceTree = "<group>";
-		};
 		802B900AA01E38DCBAE8450CD44797CB /* Pods-DiStorage_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,19 +222,28 @@
 			path = "Target Support Files/Pods-DiStorage_Example";
 			sourceTree = "<group>";
 		};
-		8AE081F76E3BB959DA585E4D08E7A17F /* Support Files */ = {
+		85E3AC6E86A27B5DA6C9ED785C9C9440 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				B8FE5709B753E2DDC96366ED6E48CCF7 /* DiStorage.modulemap */,
-				83B0670D1E97CCA8208C9DD39B522601 /* DiStorage-dummy.m */,
-				2BEC2C5013ECDC4904B42212CFAB3906 /* DiStorage-Info.plist */,
-				7B404B53100A62122CFB96E21FC35E6D /* DiStorage-prefix.pch */,
-				9E9DB30A236A3F8DB655EE26734F7CB4 /* DiStorage-umbrella.h */,
-				D110919F785356BC38F499182DFE9483 /* DiStorage.debug.xcconfig */,
-				4E4E4D21A54B058FF670FDD732951FC2 /* DiStorage.release.xcconfig */,
+				946840F7E4200805DB0C9B82574376F7 /* MBProgressHUD.h */,
+				9B7196227D8E79457EB278E10F648413 /* MBProgressHUD.m */,
+				3A10CEBDA702025791A9403E1FFB497A /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DiStorage";
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		8D0265E421A3132B18F60A5A6EB497C8 /* DiStorage */ = {
+			isa = PBXGroup;
+			children = (
+				EB4B5E051B60E19972E8214C87968363 /* DiInstanceBox.swift */,
+				A434CAB7053BDA15C88D498D413EFE54 /* DiModule.swift */,
+				72007368C29C77931B0358CACA32D602 /* DiStorage.swift */,
+				5CCE1619F8C3BEE25DA1410DA365EE5A /* DiStorageLifeTime.swift */,
+				040AAC6E3D1053EF22FB1694C0F5399F /* Support Files */,
+			);
+			name = DiStorage;
+			path = DiStorage;
 			sourceTree = "<group>";
 		};
 		96BD71FF5C2677CE1BE2FB4EB56E6BFB /* Products */ = {
@@ -238,55 +257,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C86A493F744575B77BC85AB9B143DAC2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F1A0E508679ED342B4AEDF1866C001EB /* MBProgressHUD.modulemap */,
-				4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */,
-				53025FD44EEDEB9CEAE854B0AE31CB82 /* MBProgressHUD-Info.plist */,
-				71586C258C9A4BA21A453C698866EBC7 /* MBProgressHUD-prefix.pch */,
-				5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */,
-				5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */,
-				6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MBProgressHUD";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				5C0A77DAB1BD30BAE86C1EED9859296E /* Development Pods */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
-				3F242479102E24C5847AB040CB8095A8 /* Pods */,
+				450112FD739C976628E45F6DA5B46004 /* Pods */,
 				96BD71FF5C2677CE1BE2FB4EB56E6BFB /* Products */,
 				4544625767DD7CD25018DE54DDDBFC7F /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		E774490B63227193ACB2D1E17A1A18A4 /* DiStorage */ = {
-			isa = PBXGroup;
-			children = (
-				B937984FD5F13817A31813D6EB3D4FBC /* DiInstanceBox.swift */,
-				EBE4F6E7EF8275CF25B5229793656E95 /* DiModule.swift */,
-				81D29B922117DEF21A0C4F92F7B30478 /* DiStorage.swift */,
-				DBA79B15530B8FAF4DC92ABEFA6991FE /* DiStorageLifeTime.swift */,
-				F360DD89BC8347E78F7F4968CFC4EB17 /* Pod */,
-				8AE081F76E3BB959DA585E4D08E7A17F /* Support Files */,
-			);
-			name = DiStorage;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		F360DD89BC8347E78F7F4968CFC4EB17 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				ECDE7A8BBDFC7E8883581FE9FCAC16C2 /* DiStorage.podspec */,
-				05C7D78A35A85CF9D63E0B10A35B0304 /* LICENSE */,
-				D9610CA7FD7447D715612D209D53654F /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		F3C94BABFAFE4B72731A836EC8FC5F88 /* Pods-DiStorage_Tests */ = {
@@ -356,8 +335,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				D9D5ADF21DFEA1B63EBA1BC3CCBE3AB6 /* PBXTargetDependency */,
-				BB8C128C0CFD62F2C505ECE12D43A99A /* PBXTargetDependency */,
+				4B37E5297CD890D1617EC8C6B6D21C53 /* PBXTargetDependency */,
+				B55EF40117C0010713F4F23DD67B357F /* PBXTargetDependency */,
 			);
 			name = "Pods-DiStorage_Example";
 			productName = Pods_DiStorage_Example;
@@ -412,7 +391,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				980D4FCF14897D67A2A69B1E961852A1 /* PBXTargetDependency */,
+				E786A16084EDBD28EB0707211DDC860D /* PBXTargetDependency */,
 			);
 			name = "Pods-DiStorage_Tests";
 			productName = Pods_DiStorage_Tests;
@@ -521,30 +500,63 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		980D4FCF14897D67A2A69B1E961852A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-DiStorage_Example";
-			target = 36731584EB1D852204F546A9C2309AB4 /* Pods-DiStorage_Example */;
-			targetProxy = D50D87DCF0BEF134B76D4499157B45BC /* PBXContainerItemProxy */;
-		};
-		BB8C128C0CFD62F2C505ECE12D43A99A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MBProgressHUD;
-			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
-			targetProxy = 9A865DEDA579DF040DFEAF54E192504C /* PBXContainerItemProxy */;
-		};
-		D9D5ADF21DFEA1B63EBA1BC3CCBE3AB6 /* PBXTargetDependency */ = {
+		4B37E5297CD890D1617EC8C6B6D21C53 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DiStorage;
 			target = 86CAF341C38DAED81A05B58C350DCB9B /* DiStorage */;
-			targetProxy = 880931BAEB8935C9D9DACAB3C1813ABC /* PBXContainerItemProxy */;
+			targetProxy = 945853D5D4EAC14523CA9CEDFE3B5753 /* PBXContainerItemProxy */;
+		};
+		B55EF40117C0010713F4F23DD67B357F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 224E1E0C0A3497E010F8DE41B3CAEA2F /* PBXContainerItemProxy */;
+		};
+		E786A16084EDBD28EB0707211DDC860D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DiStorage_Example";
+			target = 36731584EB1D852204F546A9C2309AB4 /* Pods-DiStorage_Example */;
+			targetProxy = 18693A8B1C58783F45340B98EC9989CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		01EB506D37DB55353E2E299AAEE7FCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5DF7E6AF982DB7AC5EB1D1DCEE7C098 /* DiStorage.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DiStorage/DiStorage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DiStorage/DiStorage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DiStorage/DiStorage.modulemap";
+				PRODUCT_MODULE_NAME = DiStorage;
+				PRODUCT_NAME = DiStorage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		13880D5F93EDFCE7E273B05B660F6D54 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */;
+			baseConfigurationReference = 9B899B737ACDB85AC82FA02E8C24EA7E /* MBProgressHUD.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -639,6 +651,38 @@
 			};
 			name = Debug;
 		};
+		57CD3AFE662F5DA630336F4495F58793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DB38EA63BBD6782F43DD4C6AE184AB1 /* DiStorage.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DiStorage/DiStorage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DiStorage/DiStorage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DiStorage/DiStorage.modulemap";
+				PRODUCT_MODULE_NAME = DiStorage;
+				PRODUCT_NAME = DiStorage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		5B4DEEB776FF6F13EF7F467F7BD820B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7E44C254CFD5A0947C3B0D9936AC6DE7 /* Pods-DiStorage_Tests.release.xcconfig */;
@@ -729,7 +773,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -804,38 +849,6 @@
 			};
 			name = Release;
 		};
-		C530986A4FF889D7CA86ABAEB6FF6295 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D110919F785356BC38F499182DFE9483 /* DiStorage.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DiStorage/DiStorage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DiStorage/DiStorage-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DiStorage/DiStorage.modulemap";
-				PRODUCT_MODULE_NAME = DiStorage;
-				PRODUCT_NAME = DiStorage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		C5EE2E10571D3F5DDD6AD244DE551680 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9D1DB93C986AEA5A00B0051B68BCC3EF /* Pods-DiStorage_Example.debug.xcconfig */;
@@ -870,42 +883,9 @@
 			};
 			name = Debug;
 		};
-		CC81D585DFCB9C9E45FBF60E621BD515 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E4E4D21A54B058FF670FDD732951FC2 /* DiStorage.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DiStorage/DiStorage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DiStorage/DiStorage-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DiStorage/DiStorage.modulemap";
-				PRODUCT_MODULE_NAME = DiStorage;
-				PRODUCT_NAME = DiStorage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		F76EC2438C578BBD59D5D07A09F80DDB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */;
+			baseConfigurationReference = CD96A438DE8B0FB27E5D09D0A6FAFB25 /* MBProgressHUD.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -941,8 +921,8 @@
 		0F6B0E329D466CC92F2F1F90BC82913F /* Build configuration list for PBXNativeTarget "DiStorage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C530986A4FF889D7CA86ABAEB6FF6295 /* Debug */,
-				CC81D585DFCB9C9E45FBF60E621BD515 /* Release */,
+				57CD3AFE662F5DA630336F4495F58793 /* Debug */,
+				01EB506D37DB55353E2E299AAEE7FCFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
