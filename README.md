@@ -55,7 +55,7 @@ let doSomethingElseRepository: DoSomethingElseRepository = DiStorage.shared.reso
 ...
 
 // delete binding if needed
-DiStorage.shared.remove(tag: AuthDiModule.self)
+DiStorage.shared.remove(tag: SomeDiModule.self)
 ```
 
 ## Example
