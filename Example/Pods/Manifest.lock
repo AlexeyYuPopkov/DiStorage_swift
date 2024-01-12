@@ -9,7 +9,6 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - DiStorage
-  trunk:
     - MBProgressHUD
 
 SPEC CHECKSUMS:
