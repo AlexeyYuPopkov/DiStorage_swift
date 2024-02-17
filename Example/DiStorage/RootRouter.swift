@@ -25,17 +25,17 @@ extension RootRouter {
 extension RootRouter {
     // Installing dependencies for unauth zone of application
    static private func installUnauthZoneDependencies() {
-       UnauthDiModule().bind(di: DiStorage.shared)
+       UnauthDiScope().bind(di: DiStorage.shared)
     }
 
     // Installing dependencies for auth zone of application
     static private func installAuthZoneDependencies() {
-        AuthDiModule().bind(di: DiStorage.shared)
+        AuthDiScope().bind(di: DiStorage.shared)
     }
 
     // Dropping dependencies for unauth zone of application
     static private func dropAuthZoneDependencies() {
-        DiStorage.shared.remove(tag: AuthDiModule.self)
+        DiStorage.shared.remove(scope: AuthDiScope.self)
     }
 }
 

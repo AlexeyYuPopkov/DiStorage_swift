@@ -37,7 +37,6 @@ final class LoginVC: UIViewController, OnRouteProtocol {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
 
-
         label.text = "Login"
         label.frame = .init(
             x: 16.0,

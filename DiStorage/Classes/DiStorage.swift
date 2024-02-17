@@ -11,16 +11,16 @@ public protocol DiStorageProtocol {
     func bind<Interface, Instance: AnyObject>(
         interface: Interface.Type,
         lifeTime: DiStorageLifeTime,
-        tag: Any?,
+        scope: Any?,
         constructor: @escaping (() -> Instance))
 
     func resolve<Interface>() -> Interface
 
     func tryResolve<Interface>(_ interface: Interface.Type) -> Interface?
 
-    func remove(tag: Any.Type)
+    func remove(scope: Any.Type)
 
-    func resetStorage()
+    func removeAll()
 }
 
 public final class DiStorage: DiStorageProtocol {
@@ -39,10 +39,10 @@ extension DiStorage {
     public func bind<Interface, Instance: AnyObject>(
         interface: Interface.Type,
         lifeTime: DiStorageLifeTime,
-        tag: Any?,
+        scope: Any?,
         constructor: @escaping (() -> Instance)) {
         let name = String(reflecting: interface)
-        let tagName = tag == nil ? nil : String(reflecting: tag!)
+        let tagName = scope == nil ? nil : String(reflecting: scope!)
 
         bind(for: name,
              tagName: tagName,
@@ -54,15 +54,24 @@ extension DiStorage {
         let name = String(reflecting: Interface.self)
         return resolve(for: name) as! Interface
     }
+    
+    public func canResolve<Interface>(_ interface: Interface.Type) -> Bool {
+        return tryResolve(interface) != nil
+    }
 
     public func tryResolve<Interface>(_ interface: Interface.Type) -> Interface? {
         let name = String(reflecting: interface)
         let result = tryResolve(for: name) as? Interface
         return result
     }
+    
+    public func remove<Interface>(_ interface: Interface.Type) {
+        let name = String(reflecting: interface)
+        instances.removeValue(forKey: name)
+    }
 
-    public func remove(tag: Any.Type) {
-        let tagName = String(reflecting: tag)
+    public func remove(scope: Any.Type) {
+        let tagName = String(reflecting: scope)
         if let names = _tagsMap[tagName], names.isEmpty == false {
             names.forEach { name in
                 removeInstanceForName(name)
@@ -72,7 +81,7 @@ extension DiStorage {
         }
     }
 
-    public func resetStorage() {
+    public func removeAll() {
         instances.removeAll()
     }
 }

@@ -14,11 +14,18 @@ end
 
 target 'DiStorage_Example' do
 # https://cocoapods.org/pods/DiStorage
-#  pod 'DiStorage', :path => '../'
-    pod 'DiStorage'
+    pod 'DiStorage', :path => '../'
+#    pod 'DiStorage'
     pod 'MBProgressHUD'
 
     target 'DiStorage_Tests' do
         inherit! :search_paths
+        pod 'DiStorage', :path => '../', :testspecs => ['Tests']
+    end
+    
+    target 'DiStorage_UITests' do
+        inherit! :search_paths
+        pod 'DiStorage', :path => '../'
+        pod 'MBProgressHUD'
     end
 end
