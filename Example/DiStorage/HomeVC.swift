@@ -31,6 +31,7 @@ final class HomeVC: UIViewController, OnRouteProtocol {
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
+        setupAccessibilityIdentifiers()
     }
 
     override func viewDidLayoutSubviews() {
@@ -95,7 +96,7 @@ final class HomeVC: UIViewController, OnRouteProtocol {
 // MARK: - Setup
 
 extension HomeVC {
-    func setup() {
+    private func setup() {
         view.backgroundColor = .white
 
         label.textAlignment = .center
@@ -118,7 +119,13 @@ extension HomeVC {
         logoutButton.titleLabel?.textAlignment = .center
         logoutButton.addTarget(self, action: #selector(logoutButtonAction), for: .touchUpInside)
         view.addSubview(logoutButton)
-
+    }
+    
+    private func setupAccessibilityIdentifiers() {
+        view.accessibilityIdentifier = "HomeVC.AccessibilityId"
+        label.accessibilityIdentifier = "Label.AccessibilityId"
+        doSomethingButton.accessibilityIdentifier = "DoSomethingButton.AccessibilityId"
+        logoutButton.accessibilityIdentifier = "SendButton.AccessibilityId"
     }
 }
 
@@ -126,8 +133,9 @@ extension HomeVC {
 
 extension HomeVC {
     @objc func doSomethingButtonAction(_ sender: UIButton) {
-        MBProgressHUD.showAdded(to: self.view, animated: true)
-
+        let hud = MBProgressHUD.showAdded(to: self.view, animated: true)
+        hud.accessibilityIdentifier = "LoadingIndicator"
+        
         doSomethingUsecase.execute {
             switch $0 {
                 case .success:

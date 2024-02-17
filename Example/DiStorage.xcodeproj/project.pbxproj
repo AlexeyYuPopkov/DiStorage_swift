@@ -34,6 +34,9 @@
 		B29DBF812B7F8C4800F7CD2B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52284E42B4C37CB002A8831 /* LoginVC.swift */; };
 		B29DBF822B7F8C4A00F7CD2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		B2F6111B2B81078200D26F60 /* DiStorage_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F6111A2B81078200D26F60 /* DiStorage_Tests.swift */; };
+		B2F611232B81487800D26F60 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F611222B81487800D26F60 /* LoginPage.swift */; };
+		B2F611262B8148FA00D26F60 /* TestTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F611252B8148FA00D26F60 /* TestTools.swift */; };
+		B2F611282B8149DB00D26F60 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F611272B8149DB00D26F60 /* HomePage.swift */; };
 		C52284DE2B4C360F002A8831 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52284DD2B4C360F002A8831 /* RootRouter.swift */; };
 		C52284E52B4C37CB002A8831 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52284E42B4C37CB002A8831 /* LoginVC.swift */; };
 		C52284E72B4C3F30002A8831 /* OnRouteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52284E62B4C3F30002A8831 /* OnRouteProtocol.swift */; };
@@ -89,6 +92,9 @@
 		B29DBF692B7F8C2A00F7CD2B /* DiStorage_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiStorage_UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B2F611182B81078200D26F60 /* DiStorage_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiStorage_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F6111A2B81078200D26F60 /* DiStorage_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiStorage_Tests.swift; sourceTree = "<group>"; };
+		B2F611222B81487800D26F60 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		B2F611252B8148FA00D26F60 /* TestTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTools.swift; sourceTree = "<group>"; };
+		B2F611272B8149DB00D26F60 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		C52284DD2B4C360F002A8831 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
 		C52284E42B4C37CB002A8831 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		C52284E62B4C3F30002A8831 /* OnRouteProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnRouteProtocol.swift; sourceTree = "<group>"; };
@@ -208,6 +214,8 @@
 		B29DBF662B7F8C2A00F7CD2B /* DiStorage_UITests */ = {
 			isa = PBXGroup;
 			children = (
+				B2F611242B8148D800D26F60 /* TestTools */,
+				B2F611212B81485200D26F60 /* Pages */,
 				B29DBF672B7F8C2A00F7CD2B /* DiStorage_UITests.swift */,
 				B29DBF692B7F8C2A00F7CD2B /* DiStorage_UITestsLaunchTests.swift */,
 			);
@@ -220,6 +228,23 @@
 				B2F6111A2B81078200D26F60 /* DiStorage_Tests.swift */,
 			);
 			path = DiStorage_Tests;
+			sourceTree = "<group>";
+		};
+		B2F611212B81485200D26F60 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				B2F611222B81487800D26F60 /* LoginPage.swift */,
+				B2F611272B8149DB00D26F60 /* HomePage.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		B2F611242B8148D800D26F60 /* TestTools */ = {
+			isa = PBXGroup;
+			children = (
+				B2F611252B8148FA00D26F60 /* TestTools.swift */,
+			);
+			path = TestTools;
 			sourceTree = "<group>";
 		};
 		C1E4311B5D132083D5945334 /* Frameworks */ = {
@@ -591,15 +616,18 @@
 				B29DBF7F2B7F8C4300F7CD2B /* AuthDiScope.swift in Sources */,
 				B29DBF682B7F8C2A00F7CD2B /* DiStorage_UITests.swift in Sources */,
 				B29DBF712B7F8C3300F7CD2B /* DoSomethingRepositoryImpl.swift in Sources */,
+				B2F611282B8149DB00D26F60 /* HomePage.swift in Sources */,
 				B29DBF6A2B7F8C2A00F7CD2B /* DiStorage_UITestsLaunchTests.swift in Sources */,
 				B29DBF762B7F8C3A00F7CD2B /* DoSomethingUsecase.swift in Sources */,
 				B29DBF772B7F8C3A00F7CD2B /* LogoutUsecase.swift in Sources */,
 				B29DBF732B7F8C3600F7CD2B /* Token.swift in Sources */,
 				B29DBF722B7F8C3300F7CD2B /* AuthRepositoryImpl.swift in Sources */,
+				B2F611262B8148FA00D26F60 /* TestTools.swift in Sources */,
 				B29DBF7A2B7F8C3D00F7CD2B /* TokenRepository.swift in Sources */,
 				B29DBF792B7F8C3D00F7CD2B /* AuthRepository.swift in Sources */,
 				B29DBF812B7F8C4800F7CD2B /* LoginVC.swift in Sources */,
 				B29DBF702B7F8C3300F7CD2B /* TokenRepositoryImpl.swift in Sources */,
+				B2F611232B81487800D26F60 /* LoginPage.swift in Sources */,
 				B29DBF752B7F8C3A00F7CD2B /* LoginUsecase.swift in Sources */,
 				B29DBF7D2B7F8C4000F7CD2B /* OnRouteProtocol.swift in Sources */,
 				B29DBF822B7F8C4A00F7CD2B /* AppDelegate.swift in Sources */,

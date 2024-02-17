@@ -32,6 +32,7 @@ final class LoginVC: UIViewController, OnRouteProtocol {
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
+        setupAccessibilityIdentifiers()
     }
 
     override func viewDidLayoutSubviews() {
@@ -87,7 +88,7 @@ final class LoginVC: UIViewController, OnRouteProtocol {
 
 // MARK: - Setup
 extension LoginVC {
-    func setup() {
+    private func setup() {
         view.backgroundColor = .white
         
         titleLabel.textAlignment = .center
@@ -117,16 +118,15 @@ extension LoginVC {
         button.titleLabel?.textAlignment = .center
         button.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
         view.addSubview(button)
-        
-        setupAccessibilityIdentifier()
     }
     
-    func setupAccessibilityIdentifier() {
-        titleLabel.accessibilityIdentifier = "LoginVC.TitleLabel.AccessibilityId"
-        descriptionLabel.accessibilityIdentifier = "LoginVC.DescriptionLabel.AccessibilityId"
-        nameTextField.accessibilityIdentifier = "LoginVC.NameTextField.AccessibilityId"
-        passwordTextField.accessibilityIdentifier = "LoginVC.PasswordTextField.AccessibilityId"
-        button.accessibilityIdentifier = "LoginVC.SendButton.AccessibilityId"
+    private func setupAccessibilityIdentifiers() {
+        view.accessibilityIdentifier = "LoginVC"
+        titleLabel.accessibilityIdentifier = "TitleLabel.AccessibilityId"
+        descriptionLabel.accessibilityIdentifier = "DescriptionLabel.AccessibilityId"
+        nameTextField.accessibilityIdentifier = "NameTextField.AccessibilityId"
+        passwordTextField.accessibilityIdentifier = "PasswordTextField.AccessibilityId"
+        button.accessibilityIdentifier = "SendButton.AccessibilityId"
     }
 }
 
@@ -141,7 +141,8 @@ extension LoginVC {
             return
         }
 
-        MBProgressHUD.showAdded(to: self.view, animated: true)
+        let hud = MBProgressHUD.showAdded(to: self.view, animated: true)
+        hud.accessibilityIdentifier = "LoadingIndicator"
 
         authUsecase.execute(
             login: login,

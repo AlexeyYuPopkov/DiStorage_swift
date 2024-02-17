@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B27488E42B81046900AE21D1"
+               BlueprintIdentifier = "B2F611172B81078200D26F60"
                BuildableName = "DiStorage_Tests.xctest"
                BlueprintName = "DiStorage_Tests"
                ReferencedContainer = "container:DiStorage.xcodeproj">
@@ -55,7 +55,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B27488E42B81046900AE21D1"
+               BlueprintIdentifier = "B2F611172B81078200D26F60"
                BuildableName = "DiStorage_Tests.xctest"
                BlueprintName = "DiStorage_Tests"
                ReferencedContainer = "container:DiStorage.xcodeproj">
