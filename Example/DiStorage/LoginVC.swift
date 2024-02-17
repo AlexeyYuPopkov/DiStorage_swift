@@ -14,7 +14,7 @@ final class LoginVC: UIViewController, OnRouteProtocol {
     let authUsecase: LoginUsecase
     var onRoute: ((Route) -> Void)?
 
-    lazy var label = UILabel(frame: .zero)
+    lazy var titleLabel = UILabel(frame: .zero)
     lazy var descriptionLabel = UILabel(frame: .zero)
     lazy var nameTextField = UITextField(frame: .zero)
     lazy var passwordTextField = UITextField(frame: .zero)
@@ -37,8 +37,8 @@ final class LoginVC: UIViewController, OnRouteProtocol {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
 
-        label.text = "Login"
-        label.frame = .init(
+        titleLabel.text = "Login"
+        titleLabel.frame = .init(
             x: 16.0,
             y: view.bounds.height / 3.0,
             width: max(.zero, view.bounds.width - 32.0),
@@ -48,7 +48,7 @@ final class LoginVC: UIViewController, OnRouteProtocol {
         descriptionLabel.text = "Input any login and any password"
         descriptionLabel.frame = .init(
             x: 16.0,
-            y: label.frame.maxY + 16.0,
+            y: titleLabel.frame.maxY + 16.0,
             width: max(.zero, view.bounds.width - 32.0),
             height: 32.0
         )
@@ -90,8 +90,8 @@ extension LoginVC {
     func setup() {
         view.backgroundColor = .white
         
-        label.textAlignment = .center
-        view.addSubview(label)
+        titleLabel.textAlignment = .center
+        view.addSubview(titleLabel)
 
         descriptionLabel.font = UIFont.systemFont(ofSize: 11.0)
         descriptionLabel.textAlignment = .center
@@ -117,6 +117,16 @@ extension LoginVC {
         button.titleLabel?.textAlignment = .center
         button.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
         view.addSubview(button)
+        
+        setupAccessibilityIdentifier()
+    }
+    
+    func setupAccessibilityIdentifier() {
+        titleLabel.accessibilityIdentifier = "LoginVC.TitleLabel.AccessibilityId"
+        descriptionLabel.accessibilityIdentifier = "LoginVC.DescriptionLabel.AccessibilityId"
+        nameTextField.accessibilityIdentifier = "LoginVC.NameTextField.AccessibilityId"
+        passwordTextField.accessibilityIdentifier = "LoginVC.PasswordTextField.AccessibilityId"
+        button.accessibilityIdentifier = "LoginVC.SendButton.AccessibilityId"
     }
 }
 
