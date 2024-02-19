@@ -117,17 +117,17 @@ class DiStorageTests: XCTestCase {
         XCTAssert(DiStorage.shared.canResolve(Usecase1.self))
         XCTAssert(DiStorage.shared.canResolve(Usecase2.self))
         
-        DiStorage.shared.remove(scope: Interface1.self)
-        DiStorage.shared.remove(scope: Usecase1.self)
-        DiStorage.shared.remove(scope: Usecase2.self)
+        DiStorage.shared.remove(Interface1.self)
+        DiStorage.shared.remove(Usecase1.self)
+        DiStorage.shared.remove(Usecase2.self)
         
-        XCTAssert(DiStorage.shared.tryResolve(Interface1.self) != nil)
-        XCTAssert(DiStorage.shared.tryResolve(Usecase1.self) != nil)
-        XCTAssert(DiStorage.shared.tryResolve(Usecase2.self) != nil)
+        XCTAssert(DiStorage.shared.tryResolve(Interface1.self) == nil)
+        XCTAssert(DiStorage.shared.tryResolve(Usecase1.self) == nil)
+        XCTAssert(DiStorage.shared.tryResolve(Usecase2.self) == nil)
         
-        XCTAssert(DiStorage.shared.canResolve(Interface1.self))
-        XCTAssert(DiStorage.shared.canResolve(Usecase1.self))
-        XCTAssert(DiStorage.shared.canResolve(Usecase2.self))
+        XCTAssert(DiStorage.shared.canResolve(Interface1.self) == false)
+        XCTAssert(DiStorage.shared.canResolve(Usecase1.self) == false)
+        XCTAssert(DiStorage.shared.canResolve(Usecase2.self) == false)
     }
 }
 
