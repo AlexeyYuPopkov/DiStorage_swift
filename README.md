@@ -16,11 +16,36 @@ The latter is important for beginning developers.
 Do not working with `struct` yet
 
 ## Usage
-
+### Without scopes
 ```swift
 import DiStorage
 
-final class SomeDiModule: DiModule {
+DiStorage.shared.bind(
+    interface: DoSomethingRepository.self,
+    lifeTime: .prototype,
+    scope: nil,
+    constructor: {
+        return DoSomethingElseRepositoryImpl()
+    }
+)
+
+// ....
+
+// Using `DoSomethingRepository`
+let doSomethingRepository: DoSomethingRepository = DiStorage.shared.resolve()
+
+// ....
+
+// Optionally you can remove binding
+  DiStorage.shared.remove(scope: DoSomethingRepository.self)
+
+```
+
+### With scopes
+```swift
+import DiStorage
+
+final class SomeDiScope: DiScope {
     func bind(di: DiStorage) {
 
         di.bind(
@@ -44,7 +69,7 @@ final class SomeDiModule: DiModule {
 ...
 
 // create binding 
-SomeDiModule().bind(di: DiStorage.shared)
+SomeDiScope().bind(di: DiStorage.shared)
 
 ...
 
@@ -54,8 +79,8 @@ let doSomethingElseRepository: DoSomethingElseRepository = DiStorage.shared.reso
 
 ...
 
-// delete binding if needed
-DiStorage.shared.remove(tag: SomeDiModule.self)
+// Optionally you can remove binding of scope
+DiStorage.shared.remove(scope: SomeDiScope.self)
 ```
 
 ## Example
