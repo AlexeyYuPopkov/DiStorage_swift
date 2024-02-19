@@ -37,7 +37,7 @@ let doSomethingRepository: DoSomethingRepository = DiStorage.shared.resolve()
 // ....
 
 // Optionally you can remove binding
-  DiStorage.shared.remove(scope: DoSomethingRepository.self)
+  DiStorage.shared.remove(DoSomethingRepository.self)
 
 ```
 
