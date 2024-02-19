@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DiStorage'
-  s.version          = '0.1.1'
+  s.version          = '0.2.0'
   s.summary          = 'DiStorage is a lightweight dependency injection library for swift.'
 
 # This description is used to generate tags and improve search results.
@@ -26,11 +26,9 @@ The latter is important for beginning developers.
                         DESC
 
   s.homepage         = 'https://github.com/AlexeyYuPopkov/DiStorage_swift'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'AlexeyYuPopkov' => 'alexey.yu.popkov@gmail.com' }
   s.source           = { :git => 'https://github.com/AlexeyYuPopkov/DiStorage_swift.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
   s.swift_version = "5.0"
@@ -41,12 +39,4 @@ The latter is important for beginning developers.
     test_spec.source_files = 'Tests/**/*'
     test_spec.dependency 'OCMock' # This dependency will only be linked with your tests.
   end
-  
-  # s.resource_bundles = {
-  #   'DiStorage' => ['DiStorage/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
