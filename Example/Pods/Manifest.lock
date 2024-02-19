@@ -1,13 +1,13 @@
 PODS:
-  - DiStorage (0.1.1)
-  - DiStorage/Tests (0.1.1):
+  - DiStorage (0.2.0)
+  - DiStorage/Tests (0.2.0):
     - OCMock
   - MBProgressHUD (1.2.0)
   - OCMock (3.9.3)
 
 DEPENDENCIES:
-  - DiStorage (from `../`)
-  - DiStorage/Tests (from `../`)
+  - DiStorage (from `https://github.com/AlexeyYuPopkov/DiStorage_swift`, tag `0.2.0`)
+  - DiStorage/Tests (from `https://github.com/AlexeyYuPopkov/DiStorage_swift`, tag `0.2.0`)
   - MBProgressHUD
 
 SPEC REPOS:
@@ -17,13 +17,19 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   DiStorage:
-    :path: "../"
+    :git: https://github.com/AlexeyYuPopkov/DiStorage_swift
+    :tag: 0.2.0
+
+CHECKOUT OPTIONS:
+  DiStorage:
+    :git: https://github.com/AlexeyYuPopkov/DiStorage_swift
+    :tag: 0.2.0
 
 SPEC CHECKSUMS:
-  DiStorage: 3b25dd71987972b1c70b86c7ebcaa8a86f8e9620
+  DiStorage: 5e928dfc9de1fca80295427dd41d40020626d698
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   OCMock: 300b1b1b9155cb6378660b981c2557448830bdc6
 
-PODFILE CHECKSUM: 1282fdbc8fcea050d0e351ed766b1885ce5fb3d5
+PODFILE CHECKSUM: f473043a355155525bfa2384f9558e8d0c827324
 
 COCOAPODS: 1.13.0

@@ -58,6 +58,7 @@ extension RootRouter {
         // Dropping dependencies for unauth zone of application
         Self.dropAuthZoneDependencies()
 
+        // Demonstration that following classes unbinded
         let checkDropped =
         DiStorage.shared.tryResolve(DoSomethingRepository.self) == nil &&
         DiStorage.shared.tryResolve(LogoutUsecase.self) == nil &&

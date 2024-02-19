@@ -14,18 +14,23 @@ end
 
 target 'DiStorage_Example' do
 # https://cocoapods.org/pods/DiStorage
-    pod 'DiStorage', :path => '../'
-#    pod 'DiStorage'
+#    pod 'DiStorage', :path => '../'
+#    pod 'DiStorage', :tag => '0.2.0', :git=> 'https://github.com/AlexeyYuPopkov/DiStorage_swift'
+    pod 'DiStorage', '~ 0.2.0'
     pod 'MBProgressHUD'
 
     target 'DiStorage_Tests' do
         inherit! :search_paths
-        pod 'DiStorage', :path => '../', :testspecs => ['Tests']
+#        pod 'DiStorage', :path => '../', :testspecs => ['Tests']
+#        pod 'DiStorage', :tag => '0.2.0', :git=> 'https://github.com/AlexeyYuPopkov/DiStorage_swift', :testspecs => ['Tests']
+        pod 'DiStorage', '~ 0.2.0', :testspecs => ['Tests']
     end
     
     target 'DiStorage_UITests' do
         inherit! :search_paths
-        pod 'DiStorage', :path => '../'
+#        pod 'DiStorage', :path => '../'
+#        pod 'DiStorage', :tag => '0.2.0', :git=> 'https://github.com/AlexeyYuPopkov/DiStorage_swift'
+        pod 'DiStorage', '~ 0.2.0'
         pod 'MBProgressHUD'
     end
 end
