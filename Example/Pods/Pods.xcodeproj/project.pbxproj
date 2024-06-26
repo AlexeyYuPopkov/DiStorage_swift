@@ -8,84 +8,84 @@
 
 /* Begin PBXBuildFile section */
 		0013DA14B23A61B912D5DDDC82EE8A26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
-		0097064E7F7D3F413161738CC5C25EEC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */; };
+		0097064E7F7D3F413161738CC5C25EEC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C35FF60BA1BFDC356F3E4DC84DD890 /* MBProgressHUD.m */; };
 		0AA33EBB857A5205F87C09CCB99EAC74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
 		21FC38E7A6339DEC2BEA925E2C402014 /* Pods-DiStorage_UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E73E54AD29301C29CD8A4F0F4819F599 /* Pods-DiStorage_UITests-dummy.m */; };
 		29377601D691ABCDF42904703BB0940F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
 		47CA8CB28603245892DF90DC066FE60F /* Pods-DiStorage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F77C30A019E9F86D0340A97D60D688 /* Pods-DiStorage_Example-dummy.m */; };
-		513309D4297016FE3D74070F3D1F2877 /* DiStorageLifeTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ECB16DBBB660AA80912B689077BCFD /* DiStorageLifeTime.swift */; };
-		58C91B4AB36E6B16421106CA634C58EF /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */; };
-		59B6D2D4F4976406C3DBC65B8F4599CD /* DiScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2D270EE44DA82901F99971AC9D4FA3 /* DiScope.swift */; };
-		5BAC1EF86D0E57E44E404B2796993561 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		513309D4297016FE3D74070F3D1F2877 /* DiStorageLifeTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC677DD077A88F2DE56FFD1911B583E /* DiStorageLifeTime.swift */; };
+		58C91B4AB36E6B16421106CA634C58EF /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFD198749996AF1E2A3E54749E69780 /* MBProgressHUD-dummy.m */; };
+		59B6D2D4F4976406C3DBC65B8F4599CD /* DiScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6B970E58A9FFC5DEA59881AB62FF21 /* DiScope.swift */; };
+		5BAC1EF86D0E57E44E404B2796993561 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F53BE169AC92A4EB5D96E59925379F24 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F83CC8335238C4410D8218887D06B98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
-		67E941CADB3CDDEEDF8CE4EE4A4A05BB /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6866C405DDD79E6D9236853AC01A3938 /* DiStorageScopesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6459EE397BDEFEBD4DF515EF0FB849FB /* DiStorageScopesTest.swift */; };
+		67E941CADB3CDDEEDF8CE4EE4A4A05BB /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 91A0862897C61E724097F9392DC21D7A /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6866C405DDD79E6D9236853AC01A3938 /* DiStorageScopesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8BB447D04F394700F0B2AEE02FD7D /* DiStorageScopesTest.swift */; };
 		6ECC4099F2F8D127823F9D49C665B2F8 /* Pods-DiStorage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B4C422E19A049584F3919BF0F96466 /* Pods-DiStorage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92840E6EBDE7C21F439661E9D4908BB7 /* DiStorage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 513F55DC9E37CEEEC49CE67088350748 /* DiStorage-dummy.m */; };
-		93246C527802958F2BCB61C3DCDEDE17 /* DiStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C362E9B1DD8FBC22BBB7B4DAA83201F /* DiStorage.swift */; };
+		92840E6EBDE7C21F439661E9D4908BB7 /* DiStorage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B6B1C243BF478EC7B1998B0AF99D85 /* DiStorage-dummy.m */; };
+		93246C527802958F2BCB61C3DCDEDE17 /* DiStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD3DBD483F75B02B8A94924E5A203E5 /* DiStorage.swift */; };
 		952CEB15DC572C23B4092CC09A3B0C9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
 		9747072469EFD568D405B1682D8FE455 /* Pods-DiStorage_UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D50C2D9BE02D5FDE303DDF27BA1A6CE7 /* Pods-DiStorage_UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFAC1D4EBD53A048346210536741DF13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABB98090B02C131F86931CB9BE54B7A /* CoreGraphics.framework */; };
 		B52177FF72FDAC3EDB7195DE98F5501E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AB40693B18F443F75126966ED13E47 /* QuartzCore.framework */; };
 		BAF93D4ACA9621123CC116A3E84ABD63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
 		BDEEB0012E1B1A70232710A845147722 /* Pods-DiStorage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B715E695BEFFA84277335BA821B647 /* Pods-DiStorage_Tests-dummy.m */; };
-		C2CD90C96449BC92CD0D12D1764B3474 /* DiStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24B8CB56A89895FA4C27B571DF857F2 /* DiStorageTests.swift */; };
-		D9C9016C62FCB576721A8B7B48A59D04 /* DiInstanceBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32745EB8FBD01077F34D5376D98E308 /* DiInstanceBox.swift */; };
+		C2CD90C96449BC92CD0D12D1764B3474 /* DiStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DE7170113D5521237ED5AFBB80AE9 /* DiStorageTests.swift */; };
+		D9C9016C62FCB576721A8B7B48A59D04 /* DiInstanceBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521864773DF23E0B2F6283EDE96558C1 /* DiInstanceBox.swift */; };
 		FA0A5FA2359B1605F465FBD0B8AB1D87 /* Pods-DiStorage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48586666926F19D39F314FE023294704 /* Pods-DiStorage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC3AF31EB26E3A9BA187BC772C0D2974 /* DiStorage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA8EC508BE032377854CAC57979B60A /* DiStorage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC3AF31EB26E3A9BA187BC772C0D2974 /* DiStorage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84FB147D3CFFFFC3ED9DD21ECCDCFE10 /* DiStorage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1C7707F0188BBB9660DD8936C70D0321 /* PBXContainerItemProxy */ = {
+		7C5E05393766492565F58D22F826691F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 86CAF341C38DAED81A05B58C350DCB9B;
 			remoteInfo = DiStorage;
 		};
-		22D6126DBFADB2D5923B36660F14892A /* PBXContainerItemProxy */ = {
+		8876AB72BC48B80DEAAF94C6CDA0D54E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 86CAF341C38DAED81A05B58C350DCB9B;
 			remoteInfo = DiStorage;
 		};
-		67102EC590AB5B6E59A4FC6CB071D656 /* PBXContainerItemProxy */ = {
+		AC4D873B3E2C69E6D3150BDBA9698333 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86CAF341C38DAED81A05B58C350DCB9B;
+			remoteInfo = DiStorage;
+		};
+		B04C1FF51DF8A3A8E57CDB3D1EC9901C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86CAF341C38DAED81A05B58C350DCB9B;
+			remoteInfo = DiStorage;
+		};
+		B23F7F1CC28227396BA2D387F282571D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 36731584EB1D852204F546A9C2309AB4;
 			remoteInfo = "Pods-DiStorage_Example";
 		};
-		8836D044AC42F9DD3C59DA68055B1CEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 86CAF341C38DAED81A05B58C350DCB9B;
-			remoteInfo = DiStorage;
-		};
-		930C35BBDACC25087688AB934D051737 /* PBXContainerItemProxy */ = {
+		D37A162FB10D1A792CB99EE427102404 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
 			remoteInfo = MBProgressHUD;
 		};
-		9C74E112BEFD16BFFBDC8B97563D7E22 /* PBXContainerItemProxy */ = {
+		D3C5130B723E41BDEC3224D30FBB430E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
 			remoteInfo = MBProgressHUD;
 		};
-		AF7128F34528612DF21B1F41E4E8B6CF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 86CAF341C38DAED81A05B58C350DCB9B;
-			remoteInfo = DiStorage;
-		};
-		C1A356118E56AFEA1D078249EF4CBC77 /* PBXContainerItemProxy */ = {
+		FCEFE35A95870C9D1F12D613D431E2F1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -96,72 +96,69 @@
 
 /* Begin PBXFileReference section */
 		0407A7D399552D517A57F25F1056BF96 /* Pods-DiStorage_UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DiStorage_UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		11BFF9D81509F3C4E74F858451F9CF9C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0E2AE96CA7509C2B6D28E4BE392AE82D /* DiStorage-Unit-Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DiStorage-Unit-Tests-Info.plist"; sourceTree = "<group>"; };
+		11C35FF60BA1BFDC356F3E4DC84DD890 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		1A5C489EE014ED3ED8047AC1AE2776C6 /* Pods-DiStorage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiStorage_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1BDF2D3130BC020A146F13433A5EC4E2 /* DiStorage.unit-tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DiStorage.unit-tests.release.xcconfig"; sourceTree = "<group>"; };
 		1C5CB68BB6526723EE1870EB837B51B8 /* Pods-DiStorage_UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiStorage_UITests.debug.xcconfig"; sourceTree = "<group>"; };
-		1FA202E891F42D52FF6F520BB58F5455 /* DiStorage-Unit-Tests-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DiStorage-Unit-Tests-prefix.pch"; sourceTree = "<group>"; };
 		2C0F8DE772A07D9B77248833926FEC82 /* Pods-DiStorage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiStorage_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2EF38C500C83F36F732490C2AA15B939 /* Pods-DiStorage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiStorage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2FB0C321625389ADA5EB39EAB6BBE8C0 /* Pods-DiStorage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DiStorage_Tests.modulemap"; sourceTree = "<group>"; };
 		30A11C792B852DE8753E65EC23163D4D /* Pods-DiStorage_UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DiStorage_UITests-frameworks.sh"; sourceTree = "<group>"; };
+		324A4BCFD0420C60BD2B11AA49D6D277 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		33B715E695BEFFA84277335BA821B647 /* Pods-DiStorage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DiStorage_Tests-dummy.m"; sourceTree = "<group>"; };
+		37D93E36E5AE98B989C3568954BF3E1E /* DiStorage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DiStorage.debug.xcconfig; sourceTree = "<group>"; };
 		381D140D11F4AE9C3EAD857F642628C7 /* Pods-DiStorage_UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiStorage_UITests.release.xcconfig"; sourceTree = "<group>"; };
-		39A919B2C417EDCE5554DEC290D83B2D /* DiStorage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DiStorage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3B6B970E58A9FFC5DEA59881AB62FF21 /* DiScope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiScope.swift; path = Sources/DiStorage/DiScope.swift; sourceTree = "<group>"; };
 		3F38F5D7296D1C0CB32E5B67A24433F8 /* Pods-DiStorage_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DiStorage_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		402182FB7FE3FDBB5AB6C3875C394148 /* Pods-DiStorage_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiStorage_Tests-Info.plist"; sourceTree = "<group>"; };
+		41D8BB447D04F394700F0B2AEE02FD7D /* DiStorageScopesTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiStorageScopesTest.swift; path = Tests/DiStorageTests/DiStorageScopesTest.swift; sourceTree = "<group>"; };
 		465A212BA39F08642EE77E0DDA01B46F /* Pods-DiStorage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiStorage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		48586666926F19D39F314FE023294704 /* Pods-DiStorage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DiStorage_Tests-umbrella.h"; sourceTree = "<group>"; };
 		49F29C5886B8D1EC30F82C49C35D877E /* Pods-DiStorage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DiStorage_Example-frameworks.sh"; sourceTree = "<group>"; };
 		49F77C30A019E9F86D0340A97D60D688 /* Pods-DiStorage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DiStorage_Example-dummy.m"; sourceTree = "<group>"; };
-		4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		4F6E3370D84873BF6B899B37CC528C79 /* Pods-DiStorage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DiStorage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		513F55DC9E37CEEEC49CE67088350748 /* DiStorage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DiStorage-dummy.m"; sourceTree = "<group>"; };
 		51AB40693B18F443F75126966ED13E47 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		53025FD44EEDEB9CEAE854B0AE31CB82 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
-		5B68FA8BADA97E88EA0602DCC6DD95A9 /* DiStorage-Unit-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "DiStorage-Unit-Tests-frameworks.sh"; sourceTree = "<group>"; };
+		521864773DF23E0B2F6283EDE96558C1 /* DiInstanceBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiInstanceBox.swift; path = Sources/DiStorage/DiInstanceBox.swift; sourceTree = "<group>"; };
+		553D44B94F912AD52DE9F8083D55E41E /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		5CAC8B2AAD398C8E65C9F1AD6D6435A4 /* DiStorage-Unit-Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "DiStorage-Unit-Tests"; path = "DiStorage-Unit-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DE3D08C1B396AF91ACE244CA893F153 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
-		5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		61D592E83963569A2EBD84A5DCF092FD /* DiStorage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DiStorage.debug.xcconfig; sourceTree = "<group>"; };
+		604243446FF9306AFC111076DAB236C9 /* DiStorage-Unit-Tests-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DiStorage-Unit-Tests-prefix.pch"; sourceTree = "<group>"; };
 		61D7CD67BED81AF8489CE8284C21B337 /* Pods-DiStorage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiStorage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6459EE397BDEFEBD4DF515EF0FB849FB /* DiStorageScopesTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiStorageScopesTest.swift; path = Tests/DiStorageTests/DiStorageScopesTest.swift; sourceTree = "<group>"; };
-		67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		663516D87C2B245CDEF696E9A932477C /* DiStorage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DiStorage.modulemap; sourceTree = "<group>"; };
 		6AA8F456605D31FC0D06C69F9BDDDA9E /* DiStorage */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DiStorage; path = DiStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD3DBD483F75B02B8A94924E5A203E5 /* DiStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiStorage.swift; path = Sources/DiStorage/DiStorage.swift; sourceTree = "<group>"; };
+		6BC677DD077A88F2DE56FFD1911B583E /* DiStorageLifeTime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiStorageLifeTime.swift; path = Sources/DiStorage/DiStorageLifeTime.swift; sourceTree = "<group>"; };
 		6CE1A7D68B3DF597F55D0CC0B5A23CE0 /* Pods-DiStorage_UITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiStorage_UITests-Info.plist"; sourceTree = "<group>"; };
-		6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
-		71586C258C9A4BA21A453C698866EBC7 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		71D01B5C41002D175662A30A042513FA /* DiStorage-Unit-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "DiStorage-Unit-Tests-frameworks.sh"; sourceTree = "<group>"; };
+		768DE7170113D5521237ED5AFBB80AE9 /* DiStorageTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiStorageTests.swift; path = Tests/DiStorageTests/DiStorageTests.swift; sourceTree = "<group>"; };
 		7B7DFAFBD2C1C4EFA60F2F941DB75FBD /* Pods-DiStorage_UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DiStorage_UITests.modulemap"; sourceTree = "<group>"; };
-		7C115178D6292A6B3E8208962ED7A7D5 /* DiStorage.unit-tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DiStorage.unit-tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7FB8CC582E598D2E138F95CFCA54B046 /* DiStorage-Unit-Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DiStorage-Unit-Tests-Info.plist"; sourceTree = "<group>"; };
 		7FBAC798687300F674FB41458E8ABFE9 /* Pods-DiStorage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DiStorage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		84FB147D3CFFFFC3ED9DD21ECCDCFE10 /* DiStorage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DiStorage-umbrella.h"; sourceTree = "<group>"; };
 		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C362E9B1DD8FBC22BBB7B4DAA83201F /* DiStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiStorage.swift; path = Sources/DiStorage/DiStorage.swift; sourceTree = "<group>"; };
-		9CE79901755A258C65F11D55AA562A68 /* DiStorage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DiStorage.release.xcconfig; sourceTree = "<group>"; };
+		8F5DCCCB0003C6867360CAF7789F1830 /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		91A0862897C61E724097F9392DC21D7A /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		9589E76633C7ED3073E0805AD02F52CA /* DiStorage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DiStorage.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A04AE6903CD9EF77EFC55A5ECEDA3831 /* DiStorage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DiStorage-Info.plist"; sourceTree = "<group>"; };
 		A1B4C422E19A049584F3919BF0F96466 /* Pods-DiStorage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DiStorage_Example-umbrella.h"; sourceTree = "<group>"; };
-		A24B8CB56A89895FA4C27B571DF857F2 /* DiStorageTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiStorageTests.swift; path = Tests/DiStorageTests/DiStorageTests.swift; sourceTree = "<group>"; };
+		A204B757C4D8B247140349D07C06D810 /* DiStorage.unit-tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DiStorage.unit-tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD2D53F90153F7215471AA42679FEF65 /* Pods-DiStorage_UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiStorage_UITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		ADC2BEF22B28795A2A0F9C744223B103 /* Pods-DiStorage_UITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DiStorage_UITests"; path = Pods_DiStorage_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B404D67C63F05450B00CBD722BC2D48B /* DiStorage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DiStorage-Info.plist"; sourceTree = "<group>"; };
-		B58FF3510DFB5FAF0FBD6B9253D7DDED /* DiStorage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DiStorage-prefix.pch"; sourceTree = "<group>"; };
-		BA2D270EE44DA82901F99971AC9D4FA3 /* DiScope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiScope.swift; path = Sources/DiStorage/DiScope.swift; sourceTree = "<group>"; };
-		BDA8EC508BE032377854CAC57979B60A /* DiStorage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DiStorage-umbrella.h"; sourceTree = "<group>"; };
+		B55C9A348D67571BB785D6B623F12D46 /* DiStorage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DiStorage-prefix.pch"; sourceTree = "<group>"; };
 		C275E15F87160A6F11D13BA7EE217F9F /* Pods-DiStorage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiStorage_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C67C8990033B8668FA4E8401C8B36E7E /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		C80EE6C11019019BB7ECF8DD1BA1F406 /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
 		CABB98090B02C131F86931CB9BE54B7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D2B4E1C44A36502F6862A1B55B41630F /* DiStorage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DiStorage.modulemap; sourceTree = "<group>"; };
+		CBFD198749996AF1E2A3E54749E69780 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		D50C2D9BE02D5FDE303DDF27BA1A6CE7 /* Pods-DiStorage_UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DiStorage_UITests-umbrella.h"; sourceTree = "<group>"; };
-		E32745EB8FBD01077F34D5376D98E308 /* DiInstanceBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiInstanceBox.swift; path = Sources/DiStorage/DiInstanceBox.swift; sourceTree = "<group>"; };
+		E2B6B1C243BF478EC7B1998B0AF99D85 /* DiStorage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DiStorage-dummy.m"; sourceTree = "<group>"; };
+		E66C901D73FEF4BBE57406F27FDF915D /* DiStorage.unit-tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DiStorage.unit-tests.release.xcconfig"; sourceTree = "<group>"; };
 		E73E54AD29301C29CD8A4F0F4819F599 /* Pods-DiStorage_UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DiStorage_UITests-dummy.m"; sourceTree = "<group>"; };
 		ED2521790EDC5C15460432ED429E81D4 /* Pods-DiStorage_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DiStorage_Example"; path = Pods_DiStorage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB880B885C8C544D3CC149CE922A9FD /* Pods-DiStorage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DiStorage_Example.modulemap"; sourceTree = "<group>"; };
 		EFF298943CB1D083AD661BD9C3AB81D3 /* Pods-DiStorage_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DiStorage_Tests"; path = Pods_DiStorage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F127949344F6FF891B0596CFE6F7D15D /* Pods-DiStorage_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiStorage_Example-Info.plist"; sourceTree = "<group>"; };
-		F1A0E508679ED342B4AEDF1866C001EB /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
-		F9ECB16DBBB660AA80912B689077BCFD /* DiStorageLifeTime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiStorageLifeTime.swift; path = Sources/DiStorage/DiStorageLifeTime.swift; sourceTree = "<group>"; };
-		FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F53BE169AC92A4EB5D96E59925379F24 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,32 +240,19 @@
 			path = "Target Support Files/Pods-DiStorage_UITests";
 			sourceTree = "<group>";
 		};
-		28340032E648168AE9C03EE069B968EA /* Support Files */ = {
+		4321A0809060B06293BF29D521056B41 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D2B4E1C44A36502F6862A1B55B41630F /* DiStorage.modulemap */,
-				513F55DC9E37CEEEC49CE67088350748 /* DiStorage-dummy.m */,
-				B404D67C63F05450B00CBD722BC2D48B /* DiStorage-Info.plist */,
-				B58FF3510DFB5FAF0FBD6B9253D7DDED /* DiStorage-prefix.pch */,
-				BDA8EC508BE032377854CAC57979B60A /* DiStorage-umbrella.h */,
-				5B68FA8BADA97E88EA0602DCC6DD95A9 /* DiStorage-Unit-Tests-frameworks.sh */,
-				7FB8CC582E598D2E138F95CFCA54B046 /* DiStorage-Unit-Tests-Info.plist */,
-				1FA202E891F42D52FF6F520BB58F5455 /* DiStorage-Unit-Tests-prefix.pch */,
-				61D592E83963569A2EBD84A5DCF092FD /* DiStorage.debug.xcconfig */,
-				9CE79901755A258C65F11D55AA562A68 /* DiStorage.release.xcconfig */,
-				7C115178D6292A6B3E8208962ED7A7D5 /* DiStorage.unit-tests.debug.xcconfig */,
-				1BDF2D3130BC020A146F13433A5EC4E2 /* DiStorage.unit-tests.release.xcconfig */,
+				553D44B94F912AD52DE9F8083D55E41E /* MBProgressHUD.modulemap */,
+				CBFD198749996AF1E2A3E54749E69780 /* MBProgressHUD-dummy.m */,
+				324A4BCFD0420C60BD2B11AA49D6D277 /* MBProgressHUD-Info.plist */,
+				C67C8990033B8668FA4E8401C8B36E7E /* MBProgressHUD-prefix.pch */,
+				F53BE169AC92A4EB5D96E59925379F24 /* MBProgressHUD-umbrella.h */,
+				8F5DCCCB0003C6867360CAF7789F1830 /* MBProgressHUD.debug.xcconfig */,
+				C80EE6C11019019BB7ECF8DD1BA1F406 /* MBProgressHUD.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DiStorage";
-			sourceTree = "<group>";
-		};
-		3F242479102E24C5847AB040CB8095A8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7DA15A24060A7C02AA2887C73FB2018D /* MBProgressHUD */,
-			);
-			name = Pods;
+			path = "../Target Support Files/MBProgressHUD";
 			sourceTree = "<group>";
 		};
 		4D6691D8CB3D493006A8661C7CFED31A /* iOS */ = {
@@ -279,6 +263,15 @@
 				51AB40693B18F443F75126966ED13E47 /* QuartzCore.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		512C10690CC6518610E0325B3E526C4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69F31D87D3BC5243EE3CFA9C2922EF55 /* DiStorage */,
+				F25875933299A86D6D2A5C63E40E2C28 /* MBProgressHUD */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		51CF8F15E31209F299CAC591332D0337 /* Pods-DiStorage_Tests */ = {
@@ -298,24 +291,18 @@
 			path = "Target Support Files/Pods-DiStorage_Tests";
 			sourceTree = "<group>";
 		};
-		52B3A702934DD2C3F580AC9683A94777 /* Tests */ = {
+		69F31D87D3BC5243EE3CFA9C2922EF55 /* DiStorage */ = {
 			isa = PBXGroup;
 			children = (
-				6459EE397BDEFEBD4DF515EF0FB849FB /* DiStorageScopesTest.swift */,
-				A24B8CB56A89895FA4C27B571DF857F2 /* DiStorageTests.swift */,
+				521864773DF23E0B2F6283EDE96558C1 /* DiInstanceBox.swift */,
+				3B6B970E58A9FFC5DEA59881AB62FF21 /* DiScope.swift */,
+				6AD3DBD483F75B02B8A94924E5A203E5 /* DiStorage.swift */,
+				6BC677DD077A88F2DE56FFD1911B583E /* DiStorageLifeTime.swift */,
+				A8EC2DC8EA58B62DACB542700B49ABED /* Support Files */,
+				C40001302058A115E351D5B100DFEA2B /* Tests */,
 			);
-			name = Tests;
-			sourceTree = "<group>";
-		};
-		7DA15A24060A7C02AA2887C73FB2018D /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */,
-				67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */,
-				C86A493F744575B77BC85AB9B143DAC2 /* Support Files */,
-			);
-			name = MBProgressHUD;
-			path = MBProgressHUD;
+			name = DiStorage;
+			path = DiStorage;
 			sourceTree = "<group>";
 		};
 		A671DA0C724849C137DA6BBFDADEA7D5 /* Products */ = {
@@ -331,19 +318,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AFC2C19C1FA8C7FC202C1E62C132C9F1 /* DiStorage */ = {
+		A8EC2DC8EA58B62DACB542700B49ABED /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E32745EB8FBD01077F34D5376D98E308 /* DiInstanceBox.swift */,
-				BA2D270EE44DA82901F99971AC9D4FA3 /* DiScope.swift */,
-				9C362E9B1DD8FBC22BBB7B4DAA83201F /* DiStorage.swift */,
-				F9ECB16DBBB660AA80912B689077BCFD /* DiStorageLifeTime.swift */,
-				C0D1FAF2810EF794369FECFC71B2D20D /* Pod */,
-				28340032E648168AE9C03EE069B968EA /* Support Files */,
-				52B3A702934DD2C3F580AC9683A94777 /* Tests */,
+				663516D87C2B245CDEF696E9A932477C /* DiStorage.modulemap */,
+				E2B6B1C243BF478EC7B1998B0AF99D85 /* DiStorage-dummy.m */,
+				A04AE6903CD9EF77EFC55A5ECEDA3831 /* DiStorage-Info.plist */,
+				B55C9A348D67571BB785D6B623F12D46 /* DiStorage-prefix.pch */,
+				84FB147D3CFFFFC3ED9DD21ECCDCFE10 /* DiStorage-umbrella.h */,
+				71D01B5C41002D175662A30A042513FA /* DiStorage-Unit-Tests-frameworks.sh */,
+				0E2AE96CA7509C2B6D28E4BE392AE82D /* DiStorage-Unit-Tests-Info.plist */,
+				604243446FF9306AFC111076DAB236C9 /* DiStorage-Unit-Tests-prefix.pch */,
+				37D93E36E5AE98B989C3568954BF3E1E /* DiStorage.debug.xcconfig */,
+				9589E76633C7ED3073E0805AD02F52CA /* DiStorage.release.xcconfig */,
+				A204B757C4D8B247140349D07C06D810 /* DiStorage.unit-tests.debug.xcconfig */,
+				E66C901D73FEF4BBE57406F27FDF915D /* DiStorage.unit-tests.release.xcconfig */,
 			);
-			name = DiStorage;
-			path = ../..;
+			name = "Support Files";
+			path = "../Target Support Files/DiStorage";
 			sourceTree = "<group>";
 		};
 		B30340C074F51B7BF8CBBA946530EC13 /* Targets Support Files */ = {
@@ -356,49 +348,24 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C0D1FAF2810EF794369FECFC71B2D20D /* Pod */ = {
+		C40001302058A115E351D5B100DFEA2B /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				39A919B2C417EDCE5554DEC290D83B2D /* DiStorage.podspec */,
-				5DE3D08C1B396AF91ACE244CA893F153 /* LICENSE */,
-				11BFF9D81509F3C4E74F858451F9CF9C /* README.md */,
+				41D8BB447D04F394700F0B2AEE02FD7D /* DiStorageScopesTest.swift */,
+				768DE7170113D5521237ED5AFBB80AE9 /* DiStorageTests.swift */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		C86A493F744575B77BC85AB9B143DAC2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F1A0E508679ED342B4AEDF1866C001EB /* MBProgressHUD.modulemap */,
-				4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */,
-				53025FD44EEDEB9CEAE854B0AE31CB82 /* MBProgressHUD-Info.plist */,
-				71586C258C9A4BA21A453C698866EBC7 /* MBProgressHUD-prefix.pch */,
-				5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */,
-				5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */,
-				6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MBProgressHUD";
+			name = Tests;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D569394541437C48FAB1BB92E46918EE /* Development Pods */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
-				3F242479102E24C5847AB040CB8095A8 /* Pods */,
+				512C10690CC6518610E0325B3E526C4E /* Pods */,
 				A671DA0C724849C137DA6BBFDADEA7D5 /* Products */,
 				B30340C074F51B7BF8CBBA946530EC13 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D569394541437C48FAB1BB92E46918EE /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AFC2C19C1FA8C7FC202C1E62C132C9F1 /* DiStorage */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D7B95C3C84237DA77D474BE1F453BECC /* Pods-DiStorage_Example */ = {
@@ -416,6 +383,17 @@
 			);
 			name = "Pods-DiStorage_Example";
 			path = "Target Support Files/Pods-DiStorage_Example";
+			sourceTree = "<group>";
+		};
+		F25875933299A86D6D2A5C63E40E2C28 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				91A0862897C61E724097F9392DC21D7A /* MBProgressHUD.h */,
+				11C35FF60BA1BFDC356F3E4DC84DD890 /* MBProgressHUD.m */,
+				4321A0809060B06293BF29D521056B41 /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -477,8 +455,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				7848CEC8FEEE198993DC688586B879BC /* PBXTargetDependency */,
-				086A7F512B1A4FB312B1268C71BF4E61 /* PBXTargetDependency */,
+				FECB1A2953FE42450E3769892059B163 /* PBXTargetDependency */,
+				9180B7DF82AC15237F0296810757DE06 /* PBXTargetDependency */,
 			);
 			name = "Pods-DiStorage_Example";
 			productName = Pods_DiStorage_Example;
@@ -533,8 +511,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				D8E91150BD04818E014218394F96356A /* PBXTargetDependency */,
-				228F5881869AEFB77125F5F8CEC41AE9 /* PBXTargetDependency */,
+				CE327DC36DFB781F3BA3AC594ED2AB11 /* PBXTargetDependency */,
+				3094998F4B5DAB02EB272F8CB2031E9F /* PBXTargetDependency */,
 			);
 			name = "Pods-DiStorage_Tests";
 			productName = Pods_DiStorage_Tests;
@@ -553,7 +531,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				3925151DC482EF8B64AE4636732C3E4E /* PBXTargetDependency */,
+				6ACA3F49EAA0A49FB9C045A24DB9B02A /* PBXTargetDependency */,
 			);
 			name = "DiStorage-Unit-Tests";
 			productName = "DiStorage-Unit-Tests";
@@ -572,9 +550,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				833A83C5B4AE0EBEA20A4F2673A6B5A4 /* PBXTargetDependency */,
-				5ABE5D4061C45508326BCA315A125AB7 /* PBXTargetDependency */,
-				D7BFABB623EBFBD244247D8019547A37 /* PBXTargetDependency */,
+				437D2E25350B8F530F245A19B45C32E4 /* PBXTargetDependency */,
+				03BBCFC0141B6DBE79BE09D902000032 /* PBXTargetDependency */,
+				3B45C5C3BC0D1AE45BB7EFB2E6A4A608 /* PBXTargetDependency */,
 			);
 			name = "Pods-DiStorage_UITests";
 			productName = Pods_DiStorage_UITests;
@@ -736,53 +714,53 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		086A7F512B1A4FB312B1268C71BF4E61 /* PBXTargetDependency */ = {
+		03BBCFC0141B6DBE79BE09D902000032 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
 			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
-			targetProxy = 9C74E112BEFD16BFFBDC8B97563D7E22 /* PBXContainerItemProxy */;
+			targetProxy = D37A162FB10D1A792CB99EE427102404 /* PBXContainerItemProxy */;
 		};
-		228F5881869AEFB77125F5F8CEC41AE9 /* PBXTargetDependency */ = {
+		3094998F4B5DAB02EB272F8CB2031E9F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DiStorage_Example";
 			target = 36731584EB1D852204F546A9C2309AB4 /* Pods-DiStorage_Example */;
-			targetProxy = C1A356118E56AFEA1D078249EF4CBC77 /* PBXContainerItemProxy */;
+			targetProxy = B23F7F1CC28227396BA2D387F282571D /* PBXContainerItemProxy */;
 		};
-		3925151DC482EF8B64AE4636732C3E4E /* PBXTargetDependency */ = {
+		3B45C5C3BC0D1AE45BB7EFB2E6A4A608 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DiStorage_Example";
+			target = 36731584EB1D852204F546A9C2309AB4 /* Pods-DiStorage_Example */;
+			targetProxy = FCEFE35A95870C9D1F12D613D431E2F1 /* PBXContainerItemProxy */;
+		};
+		437D2E25350B8F530F245A19B45C32E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DiStorage;
 			target = 86CAF341C38DAED81A05B58C350DCB9B /* DiStorage */;
-			targetProxy = 8836D044AC42F9DD3C59DA68055B1CEC /* PBXContainerItemProxy */;
+			targetProxy = 7C5E05393766492565F58D22F826691F /* PBXContainerItemProxy */;
 		};
-		5ABE5D4061C45508326BCA315A125AB7 /* PBXTargetDependency */ = {
+		6ACA3F49EAA0A49FB9C045A24DB9B02A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DiStorage;
+			target = 86CAF341C38DAED81A05B58C350DCB9B /* DiStorage */;
+			targetProxy = 8876AB72BC48B80DEAAF94C6CDA0D54E /* PBXContainerItemProxy */;
+		};
+		9180B7DF82AC15237F0296810757DE06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
 			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
-			targetProxy = 930C35BBDACC25087688AB934D051737 /* PBXContainerItemProxy */;
+			targetProxy = D3C5130B723E41BDEC3224D30FBB430E /* PBXContainerItemProxy */;
 		};
-		7848CEC8FEEE198993DC688586B879BC /* PBXTargetDependency */ = {
+		CE327DC36DFB781F3BA3AC594ED2AB11 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DiStorage;
 			target = 86CAF341C38DAED81A05B58C350DCB9B /* DiStorage */;
-			targetProxy = AF7128F34528612DF21B1F41E4E8B6CF /* PBXContainerItemProxy */;
+			targetProxy = B04C1FF51DF8A3A8E57CDB3D1EC9901C /* PBXContainerItemProxy */;
 		};
-		833A83C5B4AE0EBEA20A4F2673A6B5A4 /* PBXTargetDependency */ = {
+		FECB1A2953FE42450E3769892059B163 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DiStorage;
 			target = 86CAF341C38DAED81A05B58C350DCB9B /* DiStorage */;
-			targetProxy = 1C7707F0188BBB9660DD8936C70D0321 /* PBXContainerItemProxy */;
-		};
-		D7BFABB623EBFBD244247D8019547A37 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-DiStorage_Example";
-			target = 36731584EB1D852204F546A9C2309AB4 /* Pods-DiStorage_Example */;
-			targetProxy = 67102EC590AB5B6E59A4FC6CB071D656 /* PBXContainerItemProxy */;
-		};
-		D8E91150BD04818E014218394F96356A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DiStorage;
-			target = 86CAF341C38DAED81A05B58C350DCB9B /* DiStorage */;
-			targetProxy = 22D6126DBFADB2D5923B36660F14892A /* PBXContainerItemProxy */;
+			targetProxy = AC4D873B3E2C69E6D3150BDBA9698333 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -827,7 +805,7 @@
 		};
 		2705B82FAD3E374C3BF6B225CAFAFDC4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */;
+			baseConfigurationReference = C80EE6C11019019BB7ECF8DD1BA1F406 /* MBProgressHUD.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -928,7 +906,7 @@
 		};
 		2F85FD60FCD2819C096470B5073C7DFD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */;
+			baseConfigurationReference = 8F5DCCCB0003C6867360CAF7789F1830 /* MBProgressHUD.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -962,7 +940,7 @@
 		};
 		46B0E4AE1DB98AA16D226E38975AC97D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C115178D6292A6B3E8208962ED7A7D5 /* DiStorage.unit-tests.debug.xcconfig */;
+			baseConfigurationReference = A204B757C4D8B247140349D07C06D810 /* DiStorage.unit-tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -984,7 +962,7 @@
 		};
 		5ADAF45B2E2B9CC2F3FB753270487366 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61D592E83963569A2EBD84A5DCF092FD /* DiStorage.debug.xcconfig */;
+			baseConfigurationReference = 37D93E36E5AE98B989C3568954BF3E1E /* DiStorage.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1155,7 +1133,7 @@
 		};
 		BEC2B78393E17BE7053C5736E68CEF96 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BDF2D3130BC020A146F13433A5EC4E2 /* DiStorage.unit-tests.release.xcconfig */;
+			baseConfigurationReference = E66C901D73FEF4BBE57406F27FDF915D /* DiStorage.unit-tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1254,7 +1232,7 @@
 		};
 		E7EE9A8341642E0657405D0735A03AE2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CE79901755A258C65F11D55AA562A68 /* DiStorage.release.xcconfig */;
+			baseConfigurationReference = 9589E76633C7ED3073E0805AD02F52CA /* DiStorage.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

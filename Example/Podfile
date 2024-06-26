@@ -30,7 +30,7 @@ target 'DiStorage_Example' do
         inherit! :search_paths
 #        pod 'DiStorage', :path => '../'
 #        pod 'DiStorage', :tag => '0.2.0', :git=> 'https://github.com/AlexeyYuPopkov/DiStorage_swift'
-#        pod 'DiStorage', '~> 0.3'
+        pod 'DiStorage', '~> 0.3'
         pod 'MBProgressHUD'
     end
 end
