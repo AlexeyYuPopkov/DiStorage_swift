@@ -1,0 +1,25 @@
+PODS:
+  - DiStorage (0.3.0)
+  - DiStorage/Tests (0.3.0)
+  - MBProgressHUD (1.2.0)
+
+DEPENDENCIES:
+  - DiStorage (from `../`)
+  - DiStorage/Tests (from `../`)
+  - MBProgressHUD
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  DiStorage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DiStorage: 4105794c79721dc47c3db2b5e697c8e946f71628
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+
+PODFILE CHECKSUM: 2de8e8d9482276fbf6de3b4497f5a6f01aa8bdbd
+
+COCOAPODS: 1.15.2
