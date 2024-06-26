@@ -1,6 +1,0 @@
-framework module Pods_DiStorage_Example {
-  umbrella header "Pods-DiStorage_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
