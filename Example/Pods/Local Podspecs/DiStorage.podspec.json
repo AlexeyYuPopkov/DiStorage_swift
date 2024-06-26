@@ -19,13 +19,13 @@
     "ios": "12.0"
   },
   "swift_versions": "5.0",
-  "source_files": "Sources/DiStorage/**/*",
+  "source_files": "Sources/DiStorage/**/*.{swift}",
   "requires_arc": true,
   "testspecs": [
     {
       "name": "Tests",
       "test_type": "unit",
-      "source_files": "Tests/DiStorageTests/**/*",
+      "source_files": "Tests/DiStorageTests/**/*.{swift}",
       "requires_arc": true
     }
   ],

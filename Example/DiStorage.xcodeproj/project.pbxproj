@@ -155,7 +155,6 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for DiStorage */,
 				B29DBF662B7F8C2A00F7CD2B /* DiStorage_UITests */,
-				B27488E62B81046900AE21D1 /* DiStorage_Tests */,
 				B2F611192B81078200D26F60 /* DiStorage_Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				D986BF0067D759F1B561704D /* Pods */,
@@ -204,13 +203,6 @@
 				A7C5839E3F588F5C4C03F135 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		B27488E62B81046900AE21D1 /* DiStorage_Tests */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DiStorage_Tests;
 			sourceTree = "<group>";
 		};
 		B29DBF662B7F8C2A00F7CD2B /* DiStorage_UITests */ = {

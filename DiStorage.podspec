@@ -33,12 +33,12 @@ The latter is important for beginning developers.
   s.ios.deployment_target = '12.0'
   s.swift_version = "5.0"
   
-  s.source_files = 'Sources/DiStorage/**/*'
+  s.source_files = 'Sources/DiStorage/**/*.{swift}'
   
   s.requires_arc = true
 
   s.test_spec 'Tests' do |test_spec|
-    test_spec.source_files = 'Tests/DiStorageTests/**/*'
+    test_spec.source_files = 'Tests/DiStorageTests/**/*.{swift}'
     test_spec.requires_arc = true
   end
 end
