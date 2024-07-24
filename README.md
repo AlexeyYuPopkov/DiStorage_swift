@@ -92,12 +92,24 @@ Entry point, describing the DiStorage is `RootRouter.swift`
 
 ## Installation
 
+### Cocoapods
+
 DiStorage is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'DiStorage'
 ```
+
+### Swift Package Manager
+
+You can add `DiStorage` to your project using [Swift Package Manager](https://swift.org/package-manager/).
+
+1. Open your project in Xcode.
+2. Navigate to `File > Add Packages...`.
+3. In the search bar, enter the URL of the `DiStorage` repository: https://github.com/AlexeyYuPopkov/DiStorage_swift.git
+4. Specify the version, branch, or commit you want to use. It's recommended to use a version range:
+5. Click `Add Package`.
 
 ## Author
 
